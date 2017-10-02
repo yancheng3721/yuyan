@@ -1,0 +1,23 @@
+<head>
+    <meta charset="utf-8" />
+    <title>玉言</title>
+		<link rel="stylesheet" type="text/css" href="./style/scss.css" />
+
+    <meta name="referrer" content="unsafe-url"/>
+    <meta name="referrer" content="always"/>
+</head>
+<body>
+	<div class="header"><div class="company">上海玉言信息科技有限公司</div><div class="tel"><image src="./images/tel.png"></image><div>服务热线：021-510999797</div></div><div class="clear"></div></div>
+	<div class="nav"><img class="logo" src="images/LOGO.jpg"></img><ul><li><span class="checked">首页</span></li><li><span>公司介绍</span></li><li><span>成功案例</span></li><li><span>联系我们</span></li><li><span>WIFI无限覆盖租聘</span></li><li><span>无限OEM/ODM产品</span></li></ul><div class="clear"></div></div>
+	<div class="module"><div class="clear"></div></div>
+	
+	<div class="foot">
+		<div class="company">联系电话:021-51099797  18621857853<br>QQ邮箱:783445478@qq.com<br>上海玉言信息科技有限公司</div>
+		<div class="footNav">
+				<ul><li><span class="checked">首页</span></li><li><span>公司介绍</span></li><li><span>成功案例</span></li><li><span>联系我们</span></li><li><span>WIFI无限覆盖租聘</span></li><li><span>无限OEM/ODM产品</span></li></ul>
+				<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="gap"></div>
+</body>

@@ -1,0 +1,279 @@
+﻿$bgcolor: #006ab8;
+$navcolor:#5d6e80;
+$navcolorchecked:#00d6b3;
+$basefont: 微软雅黑;
+
+body{
+	font-family:$basefont;
+	padding: 0;
+  margin: 0;
+  min-width:1920px;
+}
+.header {
+	background:$bgcolor;
+	font-size:18px;
+	color:white;
+	height:30px;
+	position:relative;
+	padding:14px 0 14px 0;
+	vertical-align:middle;
+	.company {
+		padding-left:305px;
+		float:left;
+	}
+	.tel {
+	
+	position:relative;
+	padding-right:312px;
+		float:right;
+		img{
+			margin:5px 4px 0 0;
+			float:left;
+		}
+		div{
+			float:right;
+		}
+	}
+	
+}
+.nav{
+	height:78px;
+	padding:0px 0px 0 313px;
+	position:relative;
+	.logo{
+		margin-top:29px;
+		float:left;
+	}
+	ul{
+		padding:0;
+		margin:0;
+		float:left;
+		margin-top:32px;
+		margin-left:149px;
+		li{
+			font-size:18px;
+			font-weight:550;
+			float:left;
+			list-style:none;
+			margin-right:32px;
+			span{
+				color:$navcolor;
+				
+			}
+			.checked{
+					color:$navcolorchecked;
+				}
+			
+		}
+	}
+}
+
+.foot{
+	padding-top:64px;
+	text-align:center;
+	align:center;
+	height:434px;
+	background-color:$bgcolor;
+	.company{
+		line-height:66px;
+		color:white;
+		width:655px;
+		height:203px;
+		padding:34px 22px 34px 22px;
+		margin:0 auto; 
+		border: 1px solid white;
+		font-size:34px;
+		text-align:center;
+	}
+	.footNav{
+		text-align:center;
+		color:white;
+		width:785px;
+		margin:0 auto; 
+		ul{
+			padding:60 0 0 0;
+			margin:0;
+			li{
+			
+				font-size:18px;
+				font-weight:550;
+				float:left;
+				list-style:none;
+				margin:0px 32px 0px 0px;
+			}
+		}
+	}
+}
+.gap{
+	height:105px;
+}
+.clear{
+	clear:both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.home{
+	text-align:center;
+	.module{
+		height:612px;
+		background-image:url(../images/product3_banner.jpg);
+	}
+	.productIntro{
+		margin:0 auto;
+		padding:79 0 0 0;
+		width:610px;
+		font-size:40px;
+		.product{
+			color:#00d6b3;
+		}
+		.intro{
+			color:#2c3e50;
+		}
+	}
+	.productIntroCN{
+		font-size:30px;
+		color:#2c3e50;
+		padding:28 0 0 0;
+	}
+	.productNav{
+		height:230px;
+		width:1800px;
+		margin:0 auto;
+		padding:62 0 0 0;
+		ul{
+			padding:0 30 0 30;
+			margin:0;
+			li{
+				font-size:18px;
+				font-weight:550;
+				float:left;
+				list-style:none;
+				margin:0px 32px 0px 32px;
+			}
+		}
+	}
+	.reason{
+		padding:62 0 0 0;
+		margin:0 auto;
+	}
+	.companyIntro{
+		padding-top:40px;
+		height:272px;
+		width:1000px;
+		margin:0 auto;
+		position:relative;
+		.companyIntroContent{
+			float:left;
+			width:500;
+			color:#757575;
+			.title{
+				text-align:left;
+				width:450;
+				font-size:20px;
+				border-bottom:1px dashed;
+				padding:12px;
+			}
+			.content{
+				text-align:left;
+				width:450;
+				font-size:16px;
+				line-height:32px;
+				padding-top:20px;
+			}
+		}
+		.companyBg{
+			float:left;
+			width:500;
+		}
+	}
+	.feature{
+			padding:88 0 88 0;
+			margin:0 auto;
+			postion:relative;
+			width:1300;
+			height:700px;
+			.item-up{
+				margin:30px;
+				float:left;
+			}
+			.item-down{
+				padding-top:200px;
+				float:left;
+				
+			}
+		}
+}
+
+.wifiHire{
+	text-align:center;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background-image:url(../images/product4_banner.jpg);
+	}
+	.moduleNav{
+		margin:0 auto;
+		padding:79 0 0 0;
+		ul{
+			display:inline-block;
+			margin:0px;
+			padding:0px;
+			li{
+				float:left;
+				list-style:none;
+				margin:0;
+				padding:0;
+				font-size:36px;
+				color:ffffff;
+				background-color:$bgcolor;
+				padding:20 46 20 46;
+				
+			}
+		}
+	}
+	.wifibg{
+		padding:64 0 0 0;
+	}
+	.wifidown{
+		padding:60 0 0 0;
+	}
+	.wifiicon{
+		padding:60 0 0 0;
+		ul{
+			display:inline-block;
+			margin:0px;
+			padding:0px;
+			li{
+				width:300px;
+				float:left;
+				list-style:none;
+				margin:0;
+				padding:0;
+				font-size:36px;
+				color:$bgcolor;
+				div{
+					padding:60 0 0 0;
+				}
+			}
+		}
+	}
+	.wifipartnerBG{
+		padding:64 0 0 0;
+	}
+	.wifipartnerlist{
+		position:relative;
+		padding:64 0 64 0;
+		width:1000px;
+		margin:0 auto;
+		.item{
+			float:left;
+			width:269px;
+			height:247px;
+			padding:0 40 44 40;
+		}
+	}
+	
+	
+}
