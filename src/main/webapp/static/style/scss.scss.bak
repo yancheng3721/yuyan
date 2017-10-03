@@ -2,44 +2,57 @@
 $navcolor:#5d6e80;
 $navcolorchecked:#00d6b3;
 $basefont: 微软雅黑;
+$bodywidth:1366px;
 
 body{
 	font-family:$basefont;
 	padding: 0;
   margin: 0;
-  min-width:1920px;
+  min-width:$bodywidth;
+}
+.wrapper {
+    width: $bodywidth;
+    min-width: $bodywidth;
+    margin: 0 auto;
+    clear: both;
 }
 .header {
+	margin:0 auto;
 	background:$bgcolor;
 	font-size:18px;
 	color:white;
-	height:30px;
-	position:relative;
 	padding:14px 0 14px 0;
-	vertical-align:middle;
-	.company {
-		padding-left:305px;
-		float:left;
-	}
-	.tel {
-	
-	position:relative;
-	padding-right:312px;
-		float:right;
-		img{
-			margin:5px 4px 0 0;
+	.headerbox{
+		magin:0 auto;
+		width:$bodywidth;
+		position:relative;
+		.company {
 			float:left;
+			width:500px;
+			padding:0 0 0 60 ;
 		}
-		div{
+		.tel {
 			float:right;
+			position:relative;
+			padding:0 60 0 0 ;
+			width:250px;
+			img{
+				margin:5px 4px 0 0;
+				float:left;
+			}
+			div{
+				float:left;
+			}
 		}
 	}
+	
 	
 }
 .nav{
 	height:78px;
-	padding:0px 0px 0 313px;
-	position:relative;
+	padding:0px 0px 0 60px;
+	margin:0 auto;
+	width:$bodywidth;
 	.logo{
 		margin-top:29px;
 		float:left;
@@ -118,7 +131,7 @@ body{
 	text-align:center;
 	.module{
 		height:612px;
-		background-image:url(../images/product3_banner.jpg);
+		background:url(../images/product3_banner.jpg) center;
 	}
 	.productIntro{
 		margin:0 auto;
@@ -139,9 +152,9 @@ body{
 	}
 	.productNav{
 		height:230px;
-		width:1800px;
 		margin:0 auto;
 		padding:62 0 0 0;
+		overflow:scroll;
 		ul{
 			padding:0 30 0 30;
 			margin:0;
@@ -156,7 +169,9 @@ body{
 	}
 	.reason{
 		padding:62 0 0 0;
-		margin:0 auto;
+		height:450px;
+		margin:62 auto;
+		background:url(../images/reason.jpg) center;
 	}
 	.companyIntro{
 		padding-top:40px;
@@ -265,7 +280,7 @@ body{
 	.wifipartnerlist{
 		position:relative;
 		padding:64 0 64 0;
-		width:1000px;
+		width:1050px;
 		margin:0 auto;
 		.item{
 			float:left;

@@ -9,34 +9,39 @@ body{
 	padding: 0;
   margin: 0;
   min-width:$bodywidth;
- 	text-align:center;
+}
+.wrapper {
+    width: $bodywidth;
+    min-width: $bodywidth;
+    margin: 0 auto;
+    clear: both;
 }
 .header {
+	margin:0 auto;
 	background:$bgcolor;
 	font-size:18px;
 	color:white;
-	height:30px;
-	text-align:center;
 	padding:14px 0 14px 0;
-	vertical-align:middle;
 	.headerbox{
 		magin:0 auto;
-		
 		width:$bodywidth;
+		position:relative;
 		.company {
-			padding:0 0 0 60 ;
 			float:left;
+			width:500px;
+			padding:0 0 0 60 ;
 		}
 		.tel {
-			position:relative;
-			padding:0 60 0  ;
 			float:right;
+			position:relative;
+			padding:0 60 0 0 ;
+			width:250px;
 			img{
 				margin:5px 4px 0 0;
 				float:left;
 			}
 			div{
-				float:right;
+				float:left;
 			}
 		}
 	}
@@ -47,8 +52,10 @@ body{
 	height:78px;
 	padding:0px 0px 0 60px;
 	margin:0 auto;
+	width:$bodywidth;
 	.logo{
 		margin-top:29px;
+		padding-left:62px;
 		float:left;
 	}
 	ul{

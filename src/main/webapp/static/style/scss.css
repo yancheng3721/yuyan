@@ -3,39 +3,47 @@ body {
   font-family: 微软雅黑;
   padding: 0;
   margin: 0;
+  min-width: 1366px; }
+
+.wrapper {
+  width: 1366px;
   min-width: 1366px;
-  text-align: center; }
+  margin: 0 auto;
+  clear: both; }
 
 .header {
+  margin: 0 auto;
   background: #006ab8;
   font-size: 18px;
   color: white;
-  height: 30px;
-  text-align: center;
-  padding: 14px 0 14px 0;
-  vertical-align: middle; }
+  padding: 14px 0 14px 0; }
   .header .headerbox {
     magin: 0 auto;
-    width: 1366px; }
+    width: 1366px;
+    position: relative; }
     .header .headerbox .company {
-      padding: 0 0 0 60;
-      float: left; }
+      float: left;
+      width: 500px;
+      padding: 0 0 0 60; }
     .header .headerbox .tel {
+      float: right;
       position: relative;
-      padding: 0 60 0;
-      float: right; }
+      padding: 0 60 0 0;
+      width: 250px; }
       .header .headerbox .tel img {
         margin: 5px 4px 0 0;
         float: left; }
       .header .headerbox .tel div {
-        float: right; }
+        float: left; }
 
 .nav {
   height: 78px;
   padding: 0px 0px 0 60px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 1366px; }
   .nav .logo {
     margin-top: 29px;
+    padding-left: 62px;
     float: left; }
   .nav ul {
     padding: 0;
