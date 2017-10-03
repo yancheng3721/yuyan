@@ -3,33 +3,37 @@ body {
   font-family: 微软雅黑;
   padding: 0;
   margin: 0;
-  min-width: 1920px; }
+  min-width: 1366px;
+  text-align: center; }
 
 .header {
   background: #006ab8;
   font-size: 18px;
   color: white;
   height: 30px;
-  position: relative;
+  text-align: center;
   padding: 14px 0 14px 0;
   vertical-align: middle; }
-  .header .company {
-    padding-left: 305px;
-    float: left; }
-  .header .tel {
-    position: relative;
-    padding-right: 312px;
-    float: right; }
-    .header .tel img {
-      margin: 5px 4px 0 0;
+  .header .headerbox {
+    magin: 0 auto;
+    width: 1366px; }
+    .header .headerbox .company {
+      padding: 0 0 0 60;
       float: left; }
-    .header .tel div {
+    .header .headerbox .tel {
+      position: relative;
+      padding: 0 60 0;
       float: right; }
+      .header .headerbox .tel img {
+        margin: 5px 4px 0 0;
+        float: left; }
+      .header .headerbox .tel div {
+        float: right; }
 
 .nav {
   height: 78px;
-  padding: 0px 0px 0 313px;
-  position: relative; }
+  padding: 0px 0px 0 60px;
+  margin: 0 auto; }
   .nav .logo {
     margin-top: 29px;
     float: left; }
@@ -94,7 +98,7 @@ body {
   text-align: center; }
   .home .module {
     height: 612px;
-    background-image: url(../images/product3_banner.jpg); }
+    background: url(../images/product3_banner.jpg) center; }
   .home .productIntro {
     margin: 0 auto;
     padding: 79 0 0 0;
@@ -110,9 +114,9 @@ body {
     padding: 28 0 0 0; }
   .home .productNav {
     height: 230px;
-    width: 1800px;
     margin: 0 auto;
-    padding: 62 0 0 0; }
+    padding: 62 0 0 0;
+    overflow: scroll; }
     .home .productNav ul {
       padding: 0 30 0 30;
       margin: 0; }
@@ -124,7 +128,9 @@ body {
         margin: 0px 32px 0px 32px; }
   .home .reason {
     padding: 62 0 0 0;
-    margin: 0 auto; }
+    height: 450px;
+    margin: 62 auto;
+    background: url(../images/reason.jpg) center; }
   .home .companyIntro {
     padding-top: 40px;
     height: 272px;
