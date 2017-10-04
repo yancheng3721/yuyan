@@ -3,13 +3,41 @@ body {
   font-family: 微软雅黑;
   padding: 0;
   margin: 0;
-  min-width: 1366px; }
+  min-width: 1250px; }
+
+a {
+  text-decoration: none; }
 
 .wrapper {
-  width: 1366px;
-  min-width: 1366px;
+  width: 1250px;
+  min-width: 1250px;
   margin: 0 auto;
   clear: both; }
+
+.moduleNav {
+  margin: 0 auto;
+  padding: 79 0 0 0; }
+  .moduleNav ul {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px; }
+    .moduleNav ul li {
+      float: left;
+      list-style: none;
+      margin: 0 23 0 23;
+      padding: 0;
+      font-size: 36px;
+      color: #ffffff;
+      background-color: #006ab8;
+      padding: 20 46 20 46;
+      border: 1px solid #006ab8; }
+    .moduleNav ul .checked {
+      border: 1px solid #006ab8;
+      color: #006ab8;
+      background-color: white; }
+
+.wifibg {
+  padding: 64 0 0 0; }
 
 .header {
   margin: 0 auto;
@@ -19,7 +47,7 @@ body {
   padding: 14px 0 14px 0; }
   .header .headerbox {
     magin: 0 auto;
-    width: 1366px;
+    width: 1250px;
     position: relative; }
     .header .headerbox .company {
       float: left;
@@ -38,9 +66,10 @@ body {
 
 .nav {
   height: 78px;
-  padding: 0px 0px 0 60px;
+  padding: 0px 0px 0 0px;
   margin: 0 auto;
-  width: 1366px; }
+  min-width: 1250px;
+  width: 1250px; }
   .nav .logo {
     margin-top: 29px;
     padding-left: 62px;
@@ -50,14 +79,14 @@ body {
     margin: 0;
     float: left;
     margin-top: 32px;
-    margin-left: 149px; }
+    margin-left: 50px; }
     .nav ul li {
       font-size: 18px;
       font-weight: 550;
       float: left;
       list-style: none;
       margin-right: 32px; }
-      .nav ul li span {
+      .nav ul li a {
         color: #5d6e80; }
       .nav ul li .checked {
         color: #00d6b3; }
@@ -106,7 +135,7 @@ body {
   text-align: center; }
   .home .module {
     height: 612px;
-    background: url(../images/product3_banner.jpg) center; }
+    background: url(../images/product3_banner.jpg) center no-repeat; }
   .home .productIntro {
     margin: 0 auto;
     padding: 79 0 0 0;
@@ -124,21 +153,24 @@ body {
     height: 230px;
     margin: 0 auto;
     padding: 62 0 0 0;
-    overflow: scroll; }
+    overflow: hidden;
+    background: white; }
+    .home .productNav a {
+      padding: 0 30 0 30; }
     .home .productNav ul {
-      padding: 0 30 0 30;
+      padding: 0 0 0 0;
       margin: 0; }
       .home .productNav ul li {
         font-size: 18px;
         font-weight: 550;
         float: left;
         list-style: none;
-        margin: 0px 32px 0px 32px; }
+        margin: 0px 0px 0px 0px; }
   .home .reason {
     padding: 62 0 0 0;
     height: 450px;
     margin: 62 auto;
-    background: url(../images/reason.jpg) center; }
+    background: url(../images/reason.jpg) center no-repeat; }
   .home .companyIntro {
     padding-top: 40px;
     height: 272px;
@@ -182,25 +214,7 @@ body {
   .wifiHire .module {
     margin: 0 auto;
     height: 612px;
-    background-image: url(../images/product4_banner.jpg); }
-  .wifiHire .moduleNav {
-    margin: 0 auto;
-    padding: 79 0 0 0; }
-    .wifiHire .moduleNav ul {
-      display: inline-block;
-      margin: 0px;
-      padding: 0px; }
-      .wifiHire .moduleNav ul li {
-        float: left;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        font-size: 36px;
-        color: ffffff;
-        background-color: #006ab8;
-        padding: 20 46 20 46; }
-  .wifiHire .wifibg {
-    padding: 64 0 0 0; }
+    background: url(../images/product4_banner.jpg) center no-repeat; }
   .wifiHire .wifidown {
     padding: 60 0 0 0; }
   .wifiHire .wifiicon {
@@ -220,7 +234,9 @@ body {
         .wifiHire .wifiicon ul li div {
           padding: 60 0 0 0; }
   .wifiHire .wifipartnerBG {
-    padding: 64 0 0 0; }
+    margin: 122 0 0 0;
+    height: 418px;
+    background: url(../images/wifi_hire_2.png) center no-repeat; }
   .wifiHire .wifipartnerlist {
     position: relative;
     padding: 64 0 64 0;
@@ -231,5 +247,87 @@ body {
       width: 269px;
       height: 247px;
       padding: 0 40 44 40; }
+
+.wifisolution {
+  text-align: center; }
+  .wifisolution .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product3_banner.jpg) center no-repeat; }
+  .wifisolution .custintro {
+    padding: 60 0 0 0;
+    line-height: 50px;
+    text-align: left;
+    margin: 0 auto;
+    width: 1080;
+    color: #5d6e80; }
+    .wifisolution .custintro .title {
+      font-size: 29px; }
+    .wifisolution .custintro .content {
+      font-size: 20px; }
+  .wifisolution .solution {
+    padding: 71 0 64 0;
+    line-height: 50px;
+    text-align: left;
+    color: #5d6e80;
+    margin: 0 auto;
+    width: 1080; }
+    .wifisolution .solution .title {
+      font-size: 25px; }
+    .wifisolution .solution .content {
+      font-size: 20px; }
+
+.wifiproduct {
+  text-align: center; }
+  .wifiproduct .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product_banner.png) center no-repeat; }
+  .wifiproduct .items {
+    padding: 50 0 71 0;
+    margin: 0 auto;
+    postion: relative;
+    width: 1000px;
+    min-width: 1000px;
+    height: auto; }
+    .wifiproduct .items .item {
+      padding: 28 26 28 26;
+      float: left; }
+      .wifiproduct .items .item image {
+        width: 341;
+        height: 264; }
+
+.companyintro {
+  text-align: center; }
+  .companyintro .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product3_banner.jpg) center no-repeat; }
+  .companyintro .content {
+    padding: 71 0 64 0;
+    line-height: 50px;
+    text-align: left;
+    color: #5d6e80;
+    margin: 0 auto;
+    width: 1280;
+    font-size: 25px; }
+
+.contect {
+  text-align: center;
+  margin: 0 auto; }
+  .contect .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product3_banner.jpg) center no-repeat; }
+  .contect .addr {
+    margin: 0 auto;
+    width: 1280;
+    font-size: 25px; }
+    .contect .addr .company {
+      padding: 76 0 0 0;
+      font-size: 50px; }
+    .contect .addr .address {
+      padding: 17 0 101 0;
+      font-size: 30px; }
 
 /*# sourceMappingURL=scss.css.map */
