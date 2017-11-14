@@ -5,7 +5,7 @@ $productwidth:341;
 $productheight:264;
 
 $basefont: 微软雅黑;
-$bodywidth:1250px;
+$bodywidth:1300px;
 
 body{
 	font-family:$basefont;
@@ -125,7 +125,7 @@ a{text-decoration:none}
 	padding-top:64px;
 	text-align:center;
 	align:center;
-	height:534px;
+	height:634px;
 	background-color:$bgcolor;
 	.company{
 		line-height:66px;
@@ -191,7 +191,6 @@ a{text-decoration:none}
 		padding:28 0 0 0;
 	}
 	.productNav{
-		height:230px;
 		margin:0 auto;
 		padding:62 0 0 0;
 		overflow:hidden;
@@ -220,49 +219,30 @@ a{text-decoration:none}
 	}
 	.companyIntro{
 		padding-top:40px;
-		height:272px;
-		width:1000px;
-		margin:0 auto;
-		position:relative;
 		.companyIntroContent{
-			float:left;
-			width:500;
 			color:#757575;
 			.title{
 				text-align:left;
-				width:450;
 				font-size:20px;
-				border-bottom:1px dashed;
 				padding:12px;
 			}
 			.content{
 				text-align:left;
-				width:450;
 				font-size:16px;
 				line-height:32px;
 				padding-top:20px;
 			}
 		}
 		.companyBg{
-			float:left;
-			width:500;
+			background:url(./images/comany_bg.jpg1) center no-repeat;
+			padding-top:20px;
 		}
 	}
 	.feature{
-			padding:88 0 88 0;
 			margin:0 auto;
 			postion:relative;
-			width:1300;
-			height:700px;
-			.item-up{
-				margin:30px;
-				float:left;
-			}
-			.item-down{
-				padding-top:200px;
-				float:left;
-				
-			}
+			padding-top:60px;
+			padding-bottom:60px;
 		}
 }
 
@@ -386,7 +366,7 @@ a{text-decoration:none}
 	
 }
 
-.companyintro{
+.companyintro_alone{
 	text-align:center;
 	.module{
 		margin:0 auto;

@@ -1,0 +1,80 @@
+<head>
+    <meta charset="utf-8" />
+    <title>玉言</title>
+		<link rel="stylesheet" type="text/css" href="./style/scss.css" />
+		<link rel="stylesheet" type="text/css" href="./style/liMarquee.css" />
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <meta name="referrer" content="unsafe-url"/>
+    <meta name="referrer" content="always"/>
+</head>
+<body>
+	<div class="header">
+		<div class="wrapper">
+			<div class="headerbox">
+			<div class="company">上海玉言电子科技有限公司</div><div class="tel"><image src="./images/tel.png"></image><div>服务热线：021-510999797</div></div>
+			<div class="clear"></div>
+		</div>
+		</div>
+		
+	</div>
+	<div class="nav">
+		<img class="logo" src="images/LOGO.jpg"></img>
+		<ul>
+			<li><a href="./home.html">首页</a></li>
+			<li><a href="./wifi_product.html" class="checked">产品中心</a></li>
+			<li><a href="./wifi_hire.html">WiFi无线覆盖租赁</a></li>
+			<li><a href="./wifi_solution.html">WiFi无线覆盖方案</a></li>
+			
+			<li><a href="./case.html">成功案例</a></li>
+			<li><a href="./contect_us.html">联系我们</a></li>
+		</ul><div class="clear"></div>
+	</div>
+	<div class="wifiproduct">
+		<div class="module"><div class="clear"></div></div>
+		<div class="moduleNav">
+			<ul>
+			  <li>无线ODM产品</li>
+		  </ul>
+		
+		<div class="items">
+		  <div class="item"><a href="javascript:(0);"><img src="./images/产品1.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品2.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品3.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品4.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品5.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品9.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品6.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品7.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品8.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品10.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品11.jpg"></img></a></div>
+			<div class="item"><a href="javascript:(0);"><img src="./images/产品12.jpg"></img></a></div>
+			<div class="clear"></div>
+		</div>
+		
+	</div>
+		
+		
+	<div class="foot">
+		<div class="company">联系电话:021-51099797  18621857853<br>
+		  QQ邮箱:783445478@qq.com<br>
+	    上海玉言电子科技有限公司</div>
+		<div class="footNav">
+				<ul>
+				  <li><span class="checked"><a href="home.html">首页</a></span></li>
+				  <li><a href="wifi_product.html">产品中心</a></li>
+				  <li><a href="wifi_hire.html">WiFi无线覆盖租赁</a></li>
+				  <li><span><a href="wifi_solution.html">WiFi无线覆盖方案</a></span></li>
+				  <li><span><a href="case.html">成功案例</a></span></li>
+				  <li><a href="contect_us.html">联系我们</a></li>
+				  &nbsp;
+				</ul>
+				<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="gap">&nbsp;</div>
+</body>

@@ -3,15 +3,15 @@ body {
   font-family: 微软雅黑;
   padding: 0;
   margin: 0;
-  min-width: 1250px;
+  min-width: 1300px;
   min-height: auto; }
 
 a {
   text-decoration: none; }
 
 .wrapper {
-  width: 1250px;
-  min-width: 1250px;
+  width: 1300px;
+  min-width: 1300px;
   margin: 0 auto;
   clear: both; }
 
@@ -48,7 +48,7 @@ a {
   padding: 14px 0 14px 0; }
   .header .headerbox {
     magin: 0 auto;
-    width: 1250px;
+    width: 1300px;
     position: relative; }
     .header .headerbox .company {
       float: left;
@@ -69,8 +69,8 @@ a {
   height: 78px;
   padding: 0px 0px 0 0px;
   margin: 0 auto;
-  min-width: 1250px;
-  width: 1250px; }
+  min-width: 1300px;
+  width: 1300px; }
   .nav .logo {
     margin-top: 29px;
     padding-left: 62px;
@@ -151,7 +151,6 @@ a {
     color: #2c3e50;
     padding: 28 0 0 0; }
   .home .productNav {
-    height: 230px;
     margin: 0 auto;
     padding: 62 0 0 0;
     overflow: hidden;
@@ -173,42 +172,26 @@ a {
     margin: 62 auto;
     background: url(../images/reason.jpg) center no-repeat; }
   .home .companyIntro {
-    padding-top: 40px;
-    height: 272px;
-    width: 1000px;
-    margin: 0 auto;
-    position: relative; }
+    padding-top: 40px; }
     .home .companyIntro .companyIntroContent {
-      float: left;
-      width: 500;
       color: #757575; }
       .home .companyIntro .companyIntroContent .title {
         text-align: left;
-        width: 450;
         font-size: 20px;
-        border-bottom: 1px dashed;
         padding: 12px; }
       .home .companyIntro .companyIntroContent .content {
         text-align: left;
-        width: 450;
         font-size: 16px;
         line-height: 32px;
         padding-top: 20px; }
     .home .companyIntro .companyBg {
-      float: left;
-      width: 500; }
+      background: url(./images/comany_bg.jpg1) center no-repeat;
+      padding-top: 20px; }
   .home .feature {
-    padding: 88 0 88 0;
     margin: 0 auto;
     postion: relative;
-    width: 1300;
-    height: 700px; }
-    .home .feature .item-up {
-      margin: 30px;
-      float: left; }
-    .home .feature .item-down {
-      padding-top: 200px;
-      float: left; }
+    padding-top: 60px;
+    margin-bottom: 60px; }
 
 .wifiHire {
   text-align: center; }
@@ -298,13 +281,13 @@ a {
         width: 341;
         height: 264; }
 
-.companyintro {
+.companyintro_alone {
   text-align: center; }
-  .companyintro .module {
+  .companyintro_alone .module {
     margin: 0 auto;
     height: 612px;
     background: url(../images/product3_banner.jpg) center no-repeat; }
-  .companyintro .content {
+  .companyintro_alone .content {
     padding: 71 0 64 0;
     line-height: 50px;
     text-align: left;
