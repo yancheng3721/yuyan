@@ -1,0 +1,398 @@
+﻿$bgcolor: #006ab8;
+$navcolor:#5d6e80;
+$navcolorchecked:#00d6b3;
+$productwidth:341;
+$productheight:264;
+
+$basefont: 微软雅黑;
+$bodywidth:1300px;
+
+body{
+	font-family:$basefont;
+	padding: 0;
+  margin: 0;
+  min-width:$bodywidth;
+  min-height:auto;
+}
+a{text-decoration:none}
+.wrapper {
+    width: $bodywidth;
+    min-width: $bodywidth;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+.moduleNav{
+	margin:0 auto;
+	ul{
+		display:inline-block;
+		margin:0px;
+		padding:0px;
+		
+		li{
+			float:left;
+			list-style:none;
+			margin:0 23 0 23;
+			padding:0;
+			font-size:36px;
+			color:#ffffff;
+			background-color:$bgcolor;
+			padding:20 46 20 46;
+			border:1px solid $bgcolor;
+		}
+		.checked{
+				border:1px solid $bgcolor;
+				color:$bgcolor;
+				background-color:white;
+			}
+	}
+}
+
+.wifibg{
+}
+
+.header {
+	margin:0 auto;
+	background:$bgcolor;
+	font-size:18px;
+	color:white;
+	padding:14px 0 14px 0;
+	.headerbox{
+		magin:0 auto;
+		width:$bodywidth;
+		position:relative;
+		.company {
+			float:left;
+			width:500px;
+			padding:0 0 0 60 ;
+		}
+		.tel {
+			float:right;
+			position:relative;
+			padding:0 60 0 0 ;
+			width:320px;
+			img{
+				margin:5px 4px 0 0;
+				float:left;
+			}
+			div{
+				float:left;
+			}
+		}
+	}
+	
+	
+}
+.custnav{
+	height:78px;
+	padding:0px 0px 0 0px;
+	margin:0 auto;
+	min-width:$bodywidth;
+	width:$bodywidth;
+	.logo{
+		margin-top:29px;
+		padding-left:62px;
+		float:left;
+	}
+	ul{
+		padding:0;
+		margin:0;
+		float:right;
+		margin-top:32px;
+		margin-right:50px;
+		li{
+			font-size:18px;
+			font-weight:550;
+			float:left;
+			list-style:none;
+			margin-right:32px;
+			a{
+				color:$navcolor;
+				
+			}
+			.checked{
+					color:$navcolorchecked;
+				}
+			
+		}
+	}
+}
+
+.foot{
+	padding:64 0 64 0;
+	text-align:center;
+	align:center;
+	background-color:$bgcolor;
+	.company{
+		line-height:66px;
+		color:white;
+		width:685px;
+		height:350px;
+		padding:34px 22px 34px 22px;
+		margin:0 auto; 
+		border: 1px solid white;
+		font-size:34px;
+		text-align:center;
+	}
+	.footNav{
+		text-align:center;
+		color:white;
+		width:785px;
+		margin:0 auto; 
+		ul{
+			padding:60 0 0 0;
+			margin:0;
+			li{
+				font-size:18px;
+				font-weight:550;
+				float:left;
+				list-style:none;
+				margin:0px 32px 0px 0px;
+			}
+		}
+		a{
+		color:white;
+		}
+	}
+}
+.gap{
+	height:105px;
+}
+.clear{
+	clear:both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.home{
+	text-align:center;
+	.module{
+		height:612px;
+		background:url(../images/product3_banner.jpg) center  no-repeat;
+	}
+	.productIntro{
+		margin:0 auto;
+		padding:79 0 0 0;
+		width:610px;
+		font-size:40px;
+		.product{
+			color:#00d6b3;
+		}
+		.intro{
+			color:#2c3e50;
+		}
+	}
+	.productIntroCN{
+		font-size:30px;
+		color:#2c3e50;
+		padding:28 0 0 0;
+	}
+	.productNav{
+		margin:0 auto;
+		padding:62 0 0 0;
+		overflow:hidden;
+		background:white;
+		a{
+			padding:0 30 0 30;
+			
+		}
+		ul{
+			padding:0 0 0 0;
+			margin:0;
+			li{
+				font-size:18px;
+				font-weight:550;
+				float:left;
+				list-style:none;
+				margin:0px 0px 0px 0px;
+			}
+		}
+	}
+	.reason{
+		padding:62 0 0 0;
+		height:450px;
+		margin:62 auto;
+		background:url(../images/reason.jpg) center  no-repeat;
+	}
+	.companyIntro{
+		padding-top:40px;
+		.companyIntroContent{
+			color:#757575;
+			.title{
+				text-align:left;
+				font-size:20px;
+				padding:12px;
+			}
+			.content{
+				text-align:left;
+				font-size:16px;
+				line-height:32px;
+				padding-top:20px;
+			}
+		}
+		.companyBg{
+			background:url(./images/comany_bg.jpg) center no-repeat;
+			padding-top:20px;
+		}
+	}
+	.feature{
+			margin:0 auto;
+			postion:relative;
+			padding-top:60px;
+			margin-bottom:60px;
+		}
+}
+
+
+
+.wifiHire{
+	text-align:center;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background:url(../images/product4_banner.jpg) center no-repeat;
+	}
+	
+	
+	.wifidown{
+		padding:60 0 60 0;
+	}
+	.wifiicon{
+		padding:60 0 0 0;
+		ul{
+			display:inline-block;
+			margin:0px;
+			padding:0px;
+			li{
+				width:300px;
+				float:left;
+				list-style:none;
+				margin:0;
+				padding:0;
+				font-size:36px;
+				color:$bgcolor;
+				div{
+					padding:60 0 0 0;
+				}
+			}
+		}
+	}
+	.wifipartnerBG{
+		
+		margin:122 0 0 0;
+		height:418px;
+		background:url(../images/wifi_hire_2.jpg) center no-repeat;
+	}
+	.wifipartnerlist{
+		position:relative;
+		padding:0 0 64 0;
+		margin:0 auto;
+		.item{
+			float:left;
+			padding:0 40 44 40;
+		}
+	}
+	
+	
+}
+
+.wifisolution{
+	text-align:center;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background:url(../images/product3_banner.jpg) center  no-repeat;
+	}
+	.custintro{
+		padding:60 0 0 0;
+		line-height:50px;
+		text-align:left;
+		margin:0 auto;
+		width:1080;
+		color:$navcolor;
+		.title{
+			font-size:29px;
+		}
+		.content{
+			font-size:20px;
+		}
+		
+	}
+	.solution{
+		padding:71 0 64 0;
+		line-height:50px;
+		text-align:left;
+		color:$navcolor;
+		margin:0 auto;
+		width:1080;
+		.title{
+			font-size:25px;
+		}
+		.content{
+			font-size:20px;
+		}
+	}
+}
+
+.wifiproduct{
+	text-align:center;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background:url(../images/product_banner.jpg) center  no-repeat;
+	}
+	.items{
+		padding:50 0 71 0;
+		margin:0 auto;
+		postion:relative;
+		height:auto;
+		.item{		
+			padding:28 26 28 26;
+		}
+	}
+	
+}
+
+.companyintro_alone{
+	text-align:center;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background:url(../images/product3_banner.jpg) center  no-repeat;
+	}
+	.content{
+		padding:71 0 64 0;
+		line-height:50px;
+		text-align:left;
+		color:$navcolor;
+		margin:0 auto;
+		width:1280;
+		font-size:25px;
+		
+	}
+}
+
+.contect{
+	text-align:center;
+	margin:0 auto;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background:url(../images/product3_banner.jpg) center  no-repeat;
+	}
+	.addr{
+		margin:0 auto;
+		width:1280;
+		font-size:25px;
+		.company{
+			padding:76 0 0 0;
+			font-size:50px;
+		}
+		.address{
+			padding:17 0 101 0;
+			font-size:30px;
+		}
+	}
+}

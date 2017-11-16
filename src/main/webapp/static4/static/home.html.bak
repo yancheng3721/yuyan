@@ -1,0 +1,130 @@
+﻿<head>
+    <meta charset="utf-8" />
+    <title>玉言</title>
+        <link rel="stylesheet" type="text/css" href="./style/scss.css" />
+        <link rel="stylesheet" type="text/css" href="./style/liMarquee.css" />
+        <link rel="stylesheet" href="./style/bootstrap.min.css">
+        <script src="./js/jquery-2.1.1.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+
+		<script src="./js/jquery.liMarquee.js"></script>
+    <meta name="referrer" content="unsafe-url"/>
+    <meta name="referrer" content="always"/>
+</head>
+<body>
+	<div class="header">
+		<div class="wrapper">
+			<div class="headerbox">
+			<div class="company">上海玉言电子科技有限公司</div><div class="tel"><image src="./images/tel.png"></image><div>服务热线：021-510999797</div></div>
+			<div class="clear"></div>
+		</div>
+		</div>
+		
+	</div>
+	<div class="nav">
+		<img class="logo" src="images/LOGO.jpg"></img>
+		<ul>
+			<li><a href="./home.html" class="checked">首页</a></li>
+			<li><a href="./wifi_product.html">产品中心</a></li>
+			<li><a href="./wifi_hire.html">WiFi无线覆盖租赁</a></li>
+			<li><a href="./wifi_solution.html">WiFi无线覆盖方案</a></li>
+			
+			<li><a href="./case.html">成功案例</a></li>
+			<li><a href="./contect_us.html">联系我们</a></li>
+		</ul><div class="clear"></div>
+	</div>
+	
+	<div class="home">
+		<div id="myCarousel" class="carousel slide">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+			</ol>
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="./images/product3_banner.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="./images/product2_banner.jpg" alt="">
+				</div>
+
+			</div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="carousel-control left" href="#myCarousel" 
+			   data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" 
+			   data-slide="next">&rsaquo;</a>
+		</div> 
+		
+		<div class="productIntro"><span class="product">PRODUCT</span><span class="intro"> INTRODUCTION</span></div>
+		<div class="productIntroCN">────── ◆ 产品介绍 ◆ ──────</div>
+		<div class="productNav">
+			<div class="str4">
+				<a><img src="images/首页1.jpg"/></img></a>
+				<a><img src="./images/首页2.jpg"></img></a>
+				<a><img src="./images/首页3.jpg"></img></a>
+				<a><img src="./images/首页4.jpg"></img></a>
+				<a><img src="./images/首页5.jpg"></img></a>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="reason">
+			<div class="clear"></div>
+		</div>
+	
+		<div class="productIntro"><span class="product">COMPANY</span><span class="intro"> INTRODUCTION</span></div>
+		
+			<div class="productIntroCN">────── ◆ 公司介绍 ◆ ──────</div>
+		<div class="container companyIntro">
+			<div class="row">
+				<div class="col-md-6 col-xs-12 companyIntroContent">
+                    <div class="content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海玉言电子科技有限公司，我们是高密度高并发无线WiFi网络产品的服务商方案商和租赁商,我们有4g网络并发方案为客户解决无宽带下的wifi覆盖和无宽带下的网络4K高清直播。我们能提供万人会场的无线WiFi覆盖服务,WiFi的CDN数据加速服务,宽带加速服务,WiFi动态数据的清洗和终端用户画像服务,直播设备租赁服务,我们WiFi租赁业务适合大型企业年会,发布会,大型展会,演唱会等人群密集度高的场景下的应用,并可以用4g网络并发方案提供宽带加速业务,我们的WiFi数据清洗服务,适合连锁店,为其提供动态实时移动数据,为客户提供消费者画像,直播租赁服务,我们提供利用4g网络并发方案,服务于无宽带下的4K高清直播</div>
+                </div>
+				<div class="col-md-6 col-xs-12 companyBg">
+					<img src="./images/comany_bg.jpg"></img>
+				</div>
+			</div>
+		</div>
+		<div class="feature container">
+			<div class="item-up col-md-4"><img src="./images/feature_1.jpg"></img><div class="ctrl-up"><img src=""></img></div></div>
+			<div class="item-up col-md-4"><img src="./images/feature_2.jpg"></img><div class="ctrl-up"><img src=""></img></div></div>
+			<div class="item-up col-md-4"><img src="./images/feature_3.png"></img><div class="ctrl-up"><img src=""></img></div></div>
+		</div>
+	</div>
+	<div class="foot">
+		<div class="company">联系电话:021-51099797<br>
+		  QQ邮箱:783445478@qq.com<br>
+	    上海玉言电子科技有限公司<br>
+	    上海市松江区九泾路736号小寅商务楼2层</div>
+		<div class="footNav">
+				<ul>
+				  <li><span class="checked"><a href="home.html">首页</a></span></li>
+				  <li><span><a href="wifi_product.html">产品中心</a></span></li>
+				  <li><span><a href="wifi_hire.html">WiFi无线覆盖租赁</a></span></li>
+				  <li><span><a href="wifi_solution.html">WiFi无线覆盖方案</a></span></li>
+				  <li><a href="case.html">成功案例</a></li>
+				  <li><a href="contect_us.html">联系我们</a></li>
+				  &nbsp;
+				</ul>
+				<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="gap">&nbsp;</div>
+</body>
+	<script>
+	$(window).load(function(){
+		$('.str4').liMarquee();
+	});
+	
+	</script>
+</body>e();
+	});
+	
+	</script>
+</body>dy>});
+	
+	</script>
+</body>

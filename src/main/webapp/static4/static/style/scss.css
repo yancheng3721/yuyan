@@ -1,0 +1,305 @@
+@charset "UTF-8";
+body {
+  font-family: 微软雅黑;
+  padding: 0;
+  margin: 0;
+  min-width: 1300px;
+  min-height: auto; }
+
+a {
+  text-decoration: none; }
+
+.wrapper {
+  width: 1300px;
+  min-width: 1300px;
+  margin: 0 auto;
+  clear: both; }
+
+.moduleNav {
+  margin: 0 auto; }
+  .moduleNav ul {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px; }
+    .moduleNav ul li {
+      float: left;
+      list-style: none;
+      margin: 0 23 0 23;
+      padding: 0;
+      font-size: 36px;
+      color: #ffffff;
+      background-color: #006ab8;
+      padding: 20 46 20 46;
+      border: 1px solid #006ab8; }
+    .moduleNav ul .checked {
+      border: 1px solid #006ab8;
+      color: #006ab8;
+      background-color: white; }
+
+.header {
+  margin: 0 auto;
+  background: #006ab8;
+  font-size: 18px;
+  color: white;
+  padding: 14px 0 14px 0; }
+  .header .headerbox {
+    magin: 0 auto;
+    width: 1300px;
+    position: relative; }
+    .header .headerbox .company {
+      float: left;
+      width: 500px;
+      padding: 0 0 0 60; }
+    .header .headerbox .tel {
+      float: right;
+      position: relative;
+      padding: 0 60 0 0;
+      width: 320px; }
+      .header .headerbox .tel img {
+        margin: 5px 4px 0 0;
+        float: left; }
+      .header .headerbox .tel div {
+        float: left; }
+
+.custnav {
+  height: 78px;
+  padding: 0px 0px 0 0px;
+  margin: 0 auto;
+  min-width: 1300px;
+  width: 1300px; }
+  .custnav .logo {
+    margin-top: 29px;
+    padding-left: 62px;
+    float: left; }
+  .custnav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-top: 32px;
+    margin-right: 50px; }
+    .custnav ul li {
+      font-size: 18px;
+      font-weight: 550;
+      float: left;
+      list-style: none;
+      margin-right: 32px; }
+      .custnav ul li a {
+        color: #5d6e80; }
+      .custnav ul li .checked {
+        color: #00d6b3; }
+
+.foot {
+  padding: 64 0 64 0;
+  text-align: center;
+  align: center;
+  background-color: #006ab8; }
+  .foot .company {
+    line-height: 66px;
+    color: white;
+    width: 685px;
+    height: 350px;
+    padding: 34px 22px 34px 22px;
+    margin: 0 auto;
+    border: 1px solid white;
+    font-size: 34px;
+    text-align: center; }
+  .foot .footNav {
+    text-align: center;
+    color: white;
+    width: 785px;
+    margin: 0 auto; }
+    .foot .footNav ul {
+      padding: 60 0 0 0;
+      margin: 0; }
+      .foot .footNav ul li {
+        font-size: 18px;
+        font-weight: 550;
+        float: left;
+        list-style: none;
+        margin: 0px 32px 0px 0px; }
+    .foot .footNav a {
+      color: white; }
+
+.gap {
+  height: 105px; }
+
+.clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0; }
+
+.home {
+  text-align: center; }
+  .home .module {
+    height: 612px;
+    background: url(../images/product3_banner.jpg) center no-repeat; }
+  .home .productIntro {
+    margin: 0 auto;
+    padding: 79 0 0 0;
+    width: 610px;
+    font-size: 40px; }
+    .home .productIntro .product {
+      color: #00d6b3; }
+    .home .productIntro .intro {
+      color: #2c3e50; }
+  .home .productIntroCN {
+    font-size: 30px;
+    color: #2c3e50;
+    padding: 28 0 0 0; }
+  .home .productNav {
+    margin: 0 auto;
+    padding: 62 0 0 0;
+    overflow: hidden;
+    background: white; }
+    .home .productNav a {
+      padding: 0 30 0 30; }
+    .home .productNav ul {
+      padding: 0 0 0 0;
+      margin: 0; }
+      .home .productNav ul li {
+        font-size: 18px;
+        font-weight: 550;
+        float: left;
+        list-style: none;
+        margin: 0px 0px 0px 0px; }
+  .home .reason {
+    padding: 62 0 0 0;
+    height: 450px;
+    margin: 62 auto;
+    background: url(../images/reason.jpg) center no-repeat; }
+  .home .companyIntro {
+    padding-top: 40px; }
+    .home .companyIntro .companyIntroContent {
+      color: #757575; }
+      .home .companyIntro .companyIntroContent .title {
+        text-align: left;
+        font-size: 20px;
+        padding: 12px; }
+      .home .companyIntro .companyIntroContent .content {
+        text-align: left;
+        font-size: 16px;
+        line-height: 32px;
+        padding-top: 20px; }
+    .home .companyIntro .companyBg {
+      background: url(./images/comany_bg.jpg) center no-repeat;
+      padding-top: 20px; }
+  .home .feature {
+    margin: 0 auto;
+    postion: relative;
+    padding-top: 60px;
+    margin-bottom: 60px; }
+
+.wifiHire {
+  text-align: center; }
+  .wifiHire .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product4_banner.jpg) center no-repeat; }
+  .wifiHire .wifidown {
+    padding: 60 0 60 0; }
+  .wifiHire .wifiicon {
+    padding: 60 0 0 0; }
+    .wifiHire .wifiicon ul {
+      display: inline-block;
+      margin: 0px;
+      padding: 0px; }
+      .wifiHire .wifiicon ul li {
+        width: 300px;
+        float: left;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+        color: #006ab8; }
+        .wifiHire .wifiicon ul li div {
+          padding: 60 0 0 0; }
+  .wifiHire .wifipartnerBG {
+    margin: 122 0 0 0;
+    height: 418px;
+    background: url(../images/wifi_hire_2.jpg) center no-repeat; }
+  .wifiHire .wifipartnerlist {
+    position: relative;
+    padding: 0 0 64 0;
+    margin: 0 auto; }
+    .wifiHire .wifipartnerlist .item {
+      float: left;
+      padding: 0 40 44 40; }
+
+.wifisolution {
+  text-align: center; }
+  .wifisolution .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product3_banner.jpg) center no-repeat; }
+  .wifisolution .custintro {
+    padding: 60 0 0 0;
+    line-height: 50px;
+    text-align: left;
+    margin: 0 auto;
+    width: 1080;
+    color: #5d6e80; }
+    .wifisolution .custintro .title {
+      font-size: 29px; }
+    .wifisolution .custintro .content {
+      font-size: 20px; }
+  .wifisolution .solution {
+    padding: 71 0 64 0;
+    line-height: 50px;
+    text-align: left;
+    color: #5d6e80;
+    margin: 0 auto;
+    width: 1080; }
+    .wifisolution .solution .title {
+      font-size: 25px; }
+    .wifisolution .solution .content {
+      font-size: 20px; }
+
+.wifiproduct {
+  text-align: center; }
+  .wifiproduct .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product_banner.jpg) center no-repeat; }
+  .wifiproduct .items {
+    padding: 50 0 71 0;
+    margin: 0 auto;
+    postion: relative;
+    height: auto; }
+    .wifiproduct .items .item {
+      padding: 28 26 28 26; }
+
+.companyintro_alone {
+  text-align: center; }
+  .companyintro_alone .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product3_banner.jpg) center no-repeat; }
+  .companyintro_alone .content {
+    padding: 71 0 64 0;
+    line-height: 50px;
+    text-align: left;
+    color: #5d6e80;
+    margin: 0 auto;
+    width: 1280;
+    font-size: 25px; }
+
+.contect {
+  text-align: center;
+  margin: 0 auto; }
+  .contect .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product3_banner.jpg) center no-repeat; }
+  .contect .addr {
+    margin: 0 auto;
+    width: 1280;
+    font-size: 25px; }
+    .contect .addr .company {
+      padding: 76 0 0 0;
+      font-size: 50px; }
+    .contect .addr .address {
+      padding: 17 0 101 0;
+      font-size: 30px; }
+
+/*# sourceMappingURL=scss.css.map */
