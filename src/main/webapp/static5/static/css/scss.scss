@@ -1,0 +1,479 @@
+﻿$bgcolor: #006ab8;
+$navcolor:#5d6e80;
+$navcolorchecked:#00d6b3;
+$productwidth:341;
+$productheight:264;
+
+$basefont: 微软雅黑;
+$bodywidth:1300px;
+
+body{
+	font-family:$basefont;
+  //min-width:$bodywidth;
+  //min-height:auto;
+}
+a{text-decoration:none}
+.wrapper {
+    width: $bodywidth;
+    min-width: $bodywidth;
+    margin: 0 auto;
+    clear: both;
+}
+img{
+	display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.moduleNav{
+	margin:0 auto;
+	ul{
+		display:inline-block;
+		margin:0px;
+		padding:0px;
+		
+		li{
+			float:left;
+			list-style:none;
+			margin:0 23 0 23;
+			padding:0px;
+			font-size:36px;
+			color:#ffffff;
+			background-color:$bgcolor;
+			padding:20px 46px 20px 46px;
+			border:1px solid $bgcolor;
+		}
+		.checked{
+				border:1px solid $bgcolor;
+				color:$bgcolor;
+				background-color:white;
+			}
+	}
+}
+
+.wifibg{
+}
+
+.header {
+	background:$bgcolor;
+	font-size:18px;
+	color:white;
+	padding:14px 0 14px 0;
+}
+.custnav{
+	height:78px;
+	padding:0px 0px 0 0px;
+	margin:0 auto;
+	.logo{
+		margin-top:29px;
+		padding-left:62px;
+		float:left;
+	}
+	ul{
+		padding:0px;
+		margin:0px;
+		float:right;
+		margin-top:32px;
+		margin-right:50px;
+		li{
+			font-size:18px;
+			font-weight:550;
+			float:left;
+			list-style:none;
+			margin-right:32px;
+			a{
+				color:$navcolor;
+				
+			}
+			.checked{
+					color:$navcolorchecked;
+				}
+			
+		}
+	}
+}
+
+.foot{
+	padding:24px 0px 24px 0px;
+	text-align:center;
+	align:center;
+	background-color:$bgcolor;
+	.company{
+		line-height:66px;
+		color:white;
+		width:690px;
+		padding:24px 22px 24px 22px;
+		margin:0 auto; 
+		border: 1px solid white;
+		font-size:34px;
+		text-align:center;
+	}
+	.footNav{
+		text-align:center;
+		color:white;
+		margin:0 auto; 
+		width:720px;
+		ul{
+			padding:24px 0px 0px 0px;
+			margin:0;
+			li{
+				font-size:18px;
+				font-weight:550;
+				float:left;
+				list-style:none;
+				margin:0px 30px 0px 0px;
+			}
+		}
+		a{
+		color:white;
+		}
+	}
+}
+.gap{
+	height:105px;
+}
+.clear{
+	clear:both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.home{
+	text-align:center;
+	.module{
+		height:612px;
+		background:url(../images/product3_banner.jpg) center  no-repeat;
+	}
+	.productIntro{
+		margin:0 auto;
+		padding:24px 0px 0px 0px;
+		font-size:2.5em;
+		.product{
+			color:#00d6b3;
+		}
+		.intro{
+			color:#2c3e50;
+		}
+	}
+	.productIntroCN{
+		font-size:2.5em;
+		color:#2c3e50;
+		padding:24px 0px 0px 0px;
+	}
+	.productNav{
+		padding:24px 0px 0px 0px;
+		overflow:hidden;
+		background:transparent;
+		height:278px;
+		img{
+			margin:10px auto 10px auto;
+		}
+		
+	}
+	.reason{
+		padding:24px 0px 0px 0px;
+		height:450px;
+		margin:62 auto;
+		background:url(../images/reason.jpg) center  no-repeat;
+	}
+	.companyIntro{
+		padding-top:24px;
+		.companyIntroContent{
+			color:#757575;
+			.title{
+				text-align:left;
+				font-size:20px;
+				padding:12px;
+			}
+			.content{
+				text-align:left;
+				font-size:16px;
+				line-height:32px;
+				padding-top:20px;
+			}
+		}
+		.companyBg{
+			padding-top:20px;
+		}
+	}
+	.feature{
+			margin:0 auto;
+			postion:relative;
+			padding-top:24px;
+			margin-bottom:24px;
+		}
+}
+
+
+
+.wifisolution{
+	text-align:center;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background:url(../images/product4_banner.jpg) center no-repeat;
+	}
+	
+	
+	.wifidown{
+		padding:24px 0px 0px 0px;
+	}
+	.wifiicon{
+		padding:0px 0px 0px 0px;
+		.iconImg{
+			margin:0px;
+			padding:0px;
+				margin:0px;
+				padding:0px;
+				font-size:36px;
+				color:$bgcolor;
+				padding:24px 0px 0px 0px;
+		}
+		
+	}
+	.wifipartnerBG{
+		
+		margin:24px 0px 0px 0px;
+	}
+	.wifipartnerlist{
+		position:relative;
+		padding:24px 0px 24px 0px;
+		margin:0px auto;
+		.item{
+			float:left;
+			padding:0px 0px 0px 0px;
+		}
+	}
+	.solution{
+		padding:15px 0px 15px 0px;
+		margin:0px auto;
+	}
+	
+	
+}
+
+.wifiHire{
+	text-align:center;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background:url(../images/product4_banner.jpg) center no-repeat;
+	}
+	
+	
+	.wifidown{
+		padding:24px 0px 0px 0px;
+	}
+	.wifiicon{
+		padding:0px 0px 0px 0px;
+		.iconImg{
+			margin:0px;
+			padding:0px;
+				margin:0px;
+				padding:0px;
+				font-size:36px;
+				color:$bgcolor;
+				padding:24px 0px 0px 0px;
+		}
+		
+	}
+	.wifipartnerBG{
+		margin:24px 0px 0px 0px;
+	}
+	.wifipartnerlist{
+		position:relative;
+		padding:24px 0px 24px 0px;
+		margin:0px auto;
+		.item{
+			float:left;
+			padding:0px 0px 0px 0px;
+		}
+	}
+	.solution{
+		padding:15px 0px 15px 0px;
+		margin:0px auto;
+	}
+	
+	
+}
+
+
+
+.items{
+		postion:relative;
+		.item{
+			margin:15px 0px 15px 0px;
+			float:left;
+		}
+	}
+
+.companyintro_alone{
+	text-align:center;
+	.module{
+		margin:0px auto;
+		height:612px;
+		background:url(../images/product3_banner.jpg) center  no-repeat;
+	}
+	.content{
+		padding:71px 0px 24px 0px;
+		line-height:50px;
+		text-align:left;
+		color:$navcolor;
+		margin:0 auto;
+		width:1280;
+		font-size:25px;
+		
+	}
+}
+
+.contect{
+	text-align:center;
+	margin:0 auto;
+	.module{
+		margin:0 auto;
+		height:612px;
+	}
+	.addr{
+		margin:0 auto;
+		width:1280;
+		font-size:25px;
+		.company{
+			padding:76px 0px 0px 0px;
+			font-size:50px;
+		}
+		.address{
+			padding:17px 0px 101px 0px;
+			font-size:30px;
+		}
+	}
+}
+
+.xsNav{
+	padding:2px 15px 2px 15px;
+	a{
+		color:white;
+	}
+	div{
+		border:2px solid;
+		padding:10px 4px 10px 4px;
+	}
+	a:hover{
+		text-decoration: none;
+		color:#97FFFF;
+	}
+	
+}
+
+.mgtop8{
+	margin:8px 0px 0px 0px;
+}
+
+.caseitem{
+	div{
+		margin:3px;
+	}
+}
+
+/* Custom Styles */
+        ul.nav-tabs{
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid $bgcolor;
+        }
+        ul.nav-tabs li{
+        margin: 0;
+        }
+        ul.nav-tabs li:first-child{
+        border-top: none;
+        }
+        ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+        }
+        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: $bgcolor;
+        border: 1px solid $bgcolor;
+        }
+        ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+        }
+        ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+        }
+        ul.nav-tabs.affix{
+        top: 30px; /* Set the top position of pinned element */
+        }
+        
+        
+        .title {font-size:0.4rem;}
+        .barrage-area{
+        font-size:0.28rem;
+        line-height:2em;
+        overflow:hidden;
+        position:relative;
+        height:300px;
+        background:url("../images/team_customer.png") center no-repeat ;
+        margin:10px;
+        list-style: none;
+        padding: 0px;
+        }
+
+        .barrage-item{
+        position:absolute;
+        left:100%;
+        line-height:2em;
+        font-size:14px;
+        padding:0px 1em;
+        border-radius:100px;
+        white-space: nowrap;
+        }
+
+        .barrage-item[data-rank = "0"]{
+        top:10%;
+        }
+        .barrage-item[data-rank = "1"]{
+        top:30%;
+        }
+        .barrage-item[data-rank = "2"]{
+        top:50%;
+        }
+        .barrage-item[data-rank = "3"]{
+        top:70%;
+        }
+        .barrage-red{
+            color:#FF3030;
+            border:1px solid #FF3030;
+        }
+        .barrage-green{
+        color:#9BCD9B;
+        border:1px solid #9BCD9B;
+        }
+        .barrage-blue{
+        color:#1874CD;
+        border:1px solid #1874CD;
+        }
+        .barrage-yellow{
+        color:#FF8C00;
+        border:1px solid #FF8C00;
+        }
+        .barrage-transparent{
+        color:transparent;
+        border:1px solid transparent;
+        }
+        
+        .bgColor{
+        	background-color:$bgcolor;
+        	color:white;
+        }
+
+.col-center-block {  
+    float: none;  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}

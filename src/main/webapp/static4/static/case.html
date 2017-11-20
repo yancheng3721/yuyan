@@ -1,136 +1,218 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="unsafe-url"/>
+    <meta name="referrer" content="always"/>
     <title>玉言</title>
-        <link rel="stylesheet" type="text/css" href="./style/scss.css" />
-        <link rel="stylesheet" type="text/css" href="./style/liMarquee.css" />
-        <link rel="stylesheet" href="./style/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/scss.css" />
+        <link rel="stylesheet" type="text/css" href="./css/liMarquee.css" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/case.css">
         <script src="./js/jquery-2.1.1.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
         <script src = "./js/barrage.js"></script>
-    <meta name="referrer" content="unsafe-url"/>
-    <meta name="referrer" content="always"/>
-    <style>
-        /* Custom Styles */
-        ul.nav-tabs{
-        width: 140px;
-        margin-top: 20px;
-        border-radius: 4px;
-        border: 1px solid #ddd;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
-        }
-        ul.nav-tabs li{
-        margin: 0;
-        border-top: 1px solid #ddd;
-        }
-        ul.nav-tabs li:first-child{
-        border-top: none;
-        }
-        ul.nav-tabs li a{
-        margin: 0;
-        padding: 8px 16px;
-        border-radius: 0;
-        }
-        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
-        color: #fff;
-        background: #0088cc;
-        border: 1px solid #0088cc;
-        }
-        ul.nav-tabs li:first-child a{
-        border-radius: 4px 4px 0 0;
-        }
-        ul.nav-tabs li:last-child a{
-        border-radius: 0 0 4px 4px;
-        }
-        ul.nav-tabs.affix{
-        top: 30px; /* Set the top position of pinned element */
-        }
-    </style>
-    <style>
-        .title {font-size:0.4rem;}
-        .barrage-area{
-        font-size:0.28rem;
-        line-height:2em;
-        overflow:hidden;
-        position:relative;
-        height:15em;
-        border:1px solid;
-        margin:10px;
-        list-style: none;
-        padding: 0px;
-        }
 
-        .barrage-item{
-        position:absolute;
-        left:100%;
-        line-height:2em;
-        font-size:14px;
-        padding:0px 1em;
-        border-radius:100px;
-        white-space: nowrap;
-        }
-
-        .barrage-item[data-rank = "0"]{
-        top:10%;
-        }
-        .barrage-item[data-rank = "1"]{
-        top:30%;
-        }
-        .barrage-item[data-rank = "2"]{
-        top:50%;
-        }
-        .barrage-item[data-rank = "3"]{
-        top:70%;
-        }
-        .barrage-red{
-
-            border:1px solid #FF3030;
-        }
-        .barrage-green{
-        border:1px solid #9BCD9B;
-        }
-        .barrage-blue{
-        border:1px solid #1874CD;
-        }
-        .barrage-yellow{
-        border:1px solid #FF8C00;
-        }
-        .barrage-transparent{
-        border:1px solid transparent;
-        }
-
-    </style>
 </head>
 <body data-spy="scroll" data-target="#myScrollspy">
-	<div class="header">
-		<div class="wrapper">
-			<div class="headerbox">
-			<div class="company">上海玉言电子科技有限公司</div><div class="tel"><image src="./images/tel.png"></image><div>服务热线：021-510999797</div></div>
-			<div class="clear"></div>
+	<div class="header hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="company col-xs-12 col-sm-6">上海玉言电子有限公司</div>
+				<div class="col-xs-12 col-sm-6 text-right glyphicon glyphicon-phone-alt">&nbsp;服务热线：021-510999797</div>
+			</div>
 		</div>
-		</div>
+	</div>
 
 	</div>
-	<div class="custnav">
-		<img class="logo" src="images/LOGO.jpg"></img>
-		<ul>
-			<li><a href="./home.html">首页</a></li>
-			<li><a href="./wifi_product.html">产品中心</a></li>
-			<li><a href="./wifi_hire.html">WiFi无线覆盖租赁</a></li>
-			<li><a href="./wifi_solution.html">WiFi无线覆盖方案</a></li>
+	<div class="container visible-xs">
+		<div class="row xsNav">
+			<h4>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./home.html">首页</a></div>
+			  <div class="col-xs-4 label bgColor"><a class=" " href="./wifi_product.html">产品中心</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_hire.html">WiFi覆盖租赁</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_solution.html">WiFi覆盖方案</a></div>
+				<div class="col-xs-4 label label-success"><a class=" " href="./case.html">成功案例</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./contect_us.html">联系我们</a></div>
+			</h4>
+		</div>
+	</div>
 
-			<li><a href="./case.html" class="checked">成功案例</a></li>
-			<li><a href="./contect_us.html">联系我们</a></li>
-		</ul><div class="clear"></div>
+	<div class="custnav  hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3"><img class="logo" src="images/LOGO.jpg"></img></div>
+				<div class="col-sm-9">
+
+					<ul class="">
+						<li><a href="./home.html">首页</a></li>
+						<li><a href="./wifi_product.html">产品中心</a></li>
+						<li><a href="./wifi_hire.html">WiFi覆盖租赁</a></li>
+						<li><a href="./wifi_solution.html">WiFi覆盖方案</a></li>
+						<li><a href="./case.html" class="checked active">成功案例</a></li>
+						<li><a href="./contect_us.html">联系我们</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
 	</div>
     <div class="container">
-        <div class="jumbotron barrage-area">
+        <div class=" barrage-area">
             &nbsp;
         </div>
         <div class="row">
-            <div class="col-xs-3 col-md-2" id="myScrollspy">
-                <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="325">
+
+            <div class="col-xs-12 col-sm-10">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 ">
+                        		<h2 id="section-1" class="text-center">2017上海国际汽车展现场</h2>
+                            	<img class="center-block" src="./images/现场1.jpg"></img>
+                        
+                            
+                        </div>
+                        <div class="caseitem  col-xs-12 col-sm-6">
+                        	<div>
+                            	<span class="label label-danger ">200接入设备</span>
+	                            <span class="label label-primary">2000平米信号覆盖</span>
+	                            <span class="label label-success">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div>
+                            	<span class="label label-default">200接入设备</span>
+	                            <span class="label label-info   ">2000平米信号覆盖</span>
+	                            <span class="label label-warning">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div class="">这个展会真厉害</div>
+
+                        </div>
+                    </div>
+                	<hr>
+                    <div class="row">
+                        <div class="caseitem col-xs-12 col-sm-6">
+                            <h2 id="section-2" class="text-center">比亚迪汽车展现场</h2>
+                            <img class="center-block" src="./images/现场2.jpg"></img>
+                						
+
+                        </div>
+                        <div class="caseitem col-xs-12 col-sm-6">
+                        	<div>
+                            	<span class="label label-danger ">200接入设备</span>
+	                            <span class="label label-primary">2000平米信号覆盖</span>
+	                            <span class="label label-success">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div>
+                            	<span class="label label-default">200接入设备</span>
+	                            <span class="label label-info   ">2000平米信号覆盖</span>
+	                            <span class="label label-warning">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div class="">这个展会真厉害</div>
+                        	
+                        </div>
+                    </div>
+                <hr>
+                    <div class="row">
+                        <div class="caseitem col-xs-12 col-sm-6">
+                            <h2 id="section-3" class="text-center">卡思 优派现场</h2>
+                						<img class="center-block" src="./images/现场3.jpg"></img>
+                            
+
+                        </div>
+                        <div class="caseitem col-xs-12 col-sm-6">
+                        	<div>
+                            	<span class="label label-danger ">200接入设备</span>
+	                            <span class="label label-primary">2000平米信号覆盖</span>
+	                            <span class="label label-success">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div>
+                            	<span class="label label-default">200接入设备</span>
+	                            <span class="label label-info   ">2000平米信号覆盖</span>
+	                            <span class="label label-warning">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div class="">这个展会真厉害</div>
+                        	</div>
+                    </div>
+                <hr>
+                    <div class="row">
+                        <div class="item col-xs-12 col-sm-6"><h2 id="section-4" class="text-center">上汽大众现场</h2>
+                						<img class="center-block" src="./images/现场4.jpg"></img></div>
+                        <div class="caseitem col-xs-12 col-sm-6">
+                            <div>
+                            	<span class="label label-danger ">200接入设备</span>
+	                            <span class="label label-primary">2000平米信号覆盖</span>
+	                            <span class="label label-success">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div>
+                            	<span class="label label-default">200接入设备</span>
+	                            <span class="label label-info   ">2000平米信号覆盖</span>
+	                            <span class="label label-warning">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div class="">这个展会真厉害</div>
+
+                        </div>
+                        
+                    </div>
+                <hr>
+                    <div class="row">
+                    		<div class="item col-xs-12 col-sm-6"><h2 id="section-5" class="text-center">FACEBODY现场</h2>
+                            <img class="center-block" src="./images/现场5.jpg"></img></div>
+                        <div class="caseitem col-xs-12 col-sm-6">
+                						<div>
+                            	<span class="label label-danger ">200接入设备</span>
+	                            <span class="label label-primary">2000平米信号覆盖</span>
+	                            <span class="label label-success">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div>
+                            	<span class="label label-default">200接入设备</span>
+	                            <span class="label label-info   ">2000平米信号覆盖</span>
+	                            <span class="label label-warning">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div class="">这个展会真厉害</div>
+
+                        </div>
+                        
+                    </div>
+                <hr>
+                    <div class="row">
+                        <div class="item col-xs-12 col-sm-6">
+                        	<h2 id="section-6" class="text-center">东尚股份现场</h2>
+                           <img class="center-block" src="./images/现场6.jpg"></img>
+                         </div>
+                        <div class="caseitem col-xs-12 col-sm-6">
+                						<div>
+                            	<span class="label label-danger ">200接入设备</span>
+	                            <span class="label label-primary">2000平米信号覆盖</span>
+	                            <span class="label label-success">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div>
+                            	<span class="label label-default">200接入设备</span>
+	                            <span class="label label-info   ">2000平米信号覆盖</span>
+	                            <span class="label label-warning">10ms信号延迟</span>
+	                            
+                            </div>
+                            <div class="">这个展会真厉害</div>
+
+                        </div>
+                        
+                    </div>
+                <hr>
+            </div>
+            <div class="col-xs-3 col-sm-2" id="myScrollspy">
+                <ul class="nav nav-tabs nav-stacked hidden-xs" data-spy="affix" data-offset-top="395">
                     <li class="active"><a href="#section-1">上海国际汽车展</a></li>
                     <li><a href="#section-2">比亚迪汽车展</a></li>
                     <li><a href="#section-3">卡思 优派</a></li>
@@ -139,111 +221,18 @@
                     <li><a href="#section-6">东尚股份</a></li>
                 </ul>
             </div>
-            <div class="col-xs-9 col-md-10">
-                <h2 id="section-1">2017上海国际汽车展现场</h2>
-                <div class="container">
-                    <div class="row">
-
-                        <div class="item col-xs-12 col-md-6">
-                            <span class="label label-success">300用户</span>
-                            <span class="label label-success">200接入设备</span>
-                            <span class="label label-success">2000平米信号覆盖</span>
-                            <span class="label label-success">10ms信号延迟</span>
-                            <div class="">这个展会真厉害</div>
-
-                        </div>
-                        <div class="item col-xs-12 col-md-6"><img src="./images/现场1.jpg"></img></div>
-                    </div>
-                </div>
-                <hr>
-                <h2 id="section-2">比亚迪汽车展现场</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class="item col-xs-12 col-md-6">
-                            <span class="label label-primary">300用户</span>
-                            <span class="label label-primary">200接入设备</span>
-                            <span class="label label-primary">2000平米信号覆盖</span>
-                            <span class="label label-primary">10ms信号延迟</span>
-                            <div class="">这个展会真厉害</div>
-
-                        </div>
-                        <div class="item col-xs-12 col-md-6"><img src="./images/现场2.jpg"></img></div>
-                    </div>
-                </div>
-                <hr>
-                <h2 id="section-3">卡思 优派现场</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class="item col-xs-12 col-md-6">
-                            <span class="label label-info">300用户</span>
-                            <span class="label label-info">200接入设备</span>
-                            <span class="label label-info">2000平米信号覆盖</span>
-                            <span class="label label-info">10ms信号延迟</span>
-                            <div class="">这个展会真厉害</div>
-
-                        </div>
-                        <div class="item col-xs-12 col-md-6"><img src="./images/现场3.jpg"></img></div>
-                    </div>
-                </div>
-                <hr>
-                <h2 id="section-4">上汽大众现场</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class="item col-xs-12 col-md-6">
-                            <span class="label label-warning">300用户</span>
-                            <span class="label label-warning">200接入设备</span>
-                            <span class="label label-warning">2000平米信号覆盖</span>
-                            <span class="label label-warning">10ms信号延迟</span>
-                            <div class="">这个展会真厉害</div>
-
-                        </div>
-                        <div class="item col-xs-12 col-md-6"><img src="./images/现场4.jpg"></img></div>
-                    </div>
-                </div>
-                <hr>
-                <h2 id="section-5">FACEBODY现场</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class="item col-xs-12 col-md-6">
-                            <span class="label label-danger">300用户</span>
-                            <span class="label label-danger">200接入设备</span>
-                            <span class="label label-danger">2000平米信号覆盖</span>
-                            <span class="label label-danger">10ms信号延迟</span>
-                            <div class="">这个展会真厉害</div>
-
-                        </div>
-                        <div class="item col-xs-12 col-md-6"><img src="./images/现场5.jpg"></img></div>
-                    </div>
-                </div>
-                <hr>
-                <h2 id="section-6">东尚股份现场</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class="item col-xs-12 col-md-6">
-                            <span class="label label-primary">300用户</span>
-                            <span class="label label-success">200接入设备</span>
-                            <span class="label label-info">2000平米信号覆盖</span>
-                            <span class="label label-warning">10ms信号延迟</span>
-                            <div class="">这个展会真厉害</div>
-
-                        </div>
-                        <div class="item col-xs-12 col-md-6"><img src="./images/现场6.jpg"></img></div>
-                    </div>
-                </div>
-                <hr>
-            </div>
         </div>
     </div>
     <!--
     <div class="wifipartnerlist container">
         <div class="row">
-            <div class="item col-xs-6 col-md-4"><img src="./images/现场1.jpg"></img></div>
-            <div class="item col-xs-6 col-md-4"><img src="./images/现场2.jpg"></img></div>
-            <div class="item col-xs-6 col-md-4"><img src="./images/现场3.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场1.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场2.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场3.jpg"></img></div>
 
-            <div class="item col-xs-6 col-md-4"><img src="./images/现场4.jpg"></img></div>
-            <div class="item col-xs-6 col-md-4"><img src="./images/现场5.jpg"></img></div>
-            <div class="item col-xs-6 col-md-4"><img src="./images/现场6.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场4.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场5.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场6.jpg"></img></div>
         </div>
         <div class="clear"></div>
     </div>
@@ -251,11 +240,12 @@
 	<div class="wifiHire">
 
 	</div>
-		
-	<div class="foot">
+	
+
+	<div class="foot hidden-xs">
 		<div class="company">联系电话:021-51099797<br>
 		  QQ邮箱:783445478@qq.com<br>
-	    上海玉言电子科技有限公司<br>
+	    上海玉言电子有限公司<br>
 	    上海市松江区九泾路736号小寅商务楼2层</div>
 		<div class="footNav">
 				<ul>
@@ -271,7 +261,18 @@
 		</div>
 		<div class="clear"></div>
 	</div>
-	<div class="gap">&nbsp;</div>
+	<div class="container visible-xs">
+		<div class="row xsNav">
+			<h4>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./home.html">首页</a></div>
+			  <div class="col-xs-4 label bgColor"><a class=" " href="./wifi_product.html">产品中心</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_hire.html">WiFi覆盖租赁</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_solution.html">WiFi覆盖方案</a></div>
+				<div class="col-xs-4 label label-success"><a class=" " href="./case.html">成功案例</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./contect_us.html">联系我们</a></div>
+			</h4>
+		</div>
+	</div>
 </body>
 <script src="./js/jquery-2.1.1.min.js"></script>
 
@@ -280,6 +281,7 @@
     var barrage = new Barrage({
             wrapper : $(".barrage-area").eq(0),
             rank : 4,
+            circle : false ,
             tmp : function(data,rank){
                 var colorIdx=parseInt(Math.random()*colors.length);
                 return '<li class = "barrage-item barrage-'+colors[colorIdx] +'" data-rank = "'+rank+'">'+data.txt+'</li>';
