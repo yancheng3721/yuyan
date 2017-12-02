@@ -1,0 +1,558 @@
+html {
+  font-size: 10px; }
+
+body {
+  font-family: "Microsoft YaHei" !important;
+  padding: 0px;
+  margin: 0px; }
+
+a {
+  text-decoration: none; }
+
+.wrapper {
+  width: 1300px;
+  min-width: 1300px;
+  margin: 0 auto;
+  clear: both; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.moduleNav {
+  margin: 0 auto; }
+  .moduleNav ul {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px; }
+    .moduleNav ul li {
+      float: left;
+      list-style: none;
+      margin: 0 23 0 23;
+      padding: 0px;
+      font-size: 3.6rem;
+      color: #ffffff;
+      background-color: #006ab8;
+      padding: 20px 46px 20px 46px;
+      border: 1px solid #006ab8; }
+    .moduleNav ul .checked {
+      border: 1px solid #006ab8;
+      color: #006ab8;
+      background-color: white; }
+
+.header {
+  background: #006ab8;
+  font-size: 1.8rem;
+  color: white;
+  padding: 14px 0 14px 0; }
+
+.custnav {
+  height: 78px;
+  padding: 0px 0px 0 0px;
+  margin: 0 auto; }
+  .custnav .logo {
+    margin-top: 29px;
+    padding-left: 0px;
+    float: left; }
+  .custnav ul {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    margin-top: 32px;
+    margin-left: 20px; }
+    .custnav ul li {
+      font-size: 1.8rem;
+      font-weight: 550;
+      float: left;
+      list-style: none;
+      margin-right: 32px; }
+      .custnav ul li a {
+        color: #5d6e80; }
+      .custnav ul li .checked {
+        color: #00d6b3; }
+
+.foot {
+  padding: 44px 0px 44px 0px;
+  text-align: center;
+  align: center;
+  background-color: #006ab8; }
+  .foot .company {
+    line-height: 66px;
+    color: white;
+    width: 690px;
+    padding: 44px 22px 44px 22px;
+    margin: 0 auto;
+    border: 1px solid white;
+    font-size: 3.4rem;
+    text-align: center; }
+  .foot .footNav {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 720px; }
+    .foot .footNav ul {
+      padding: 44px 0px 0px 0px;
+      margin: 0; }
+      .foot .footNav ul li {
+        font-size: 1.8rem;
+        font-weight: 550;
+        float: left;
+        list-style: none;
+        margin: 0px 14px 0px 14px; }
+    .foot .footNav a {
+      color: white; }
+
+.gap {
+  height: 105px; }
+
+.clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0; }
+
+.home {
+  text-align: center; }
+  .home .module {
+    height: 612px;
+    background: url(../images/product3_banner.jpg) center no-repeat; }
+  .home .productIntro {
+    margin: 0 auto;
+    padding: 74px 0px 0px 0px;
+    font-size: 3rem; }
+    .home .productIntro .product {
+      color: #00d6b3; }
+    .home .productIntro .intro {
+      color: #2c3e50; }
+  .home .productIntroCN {
+    font-size: 3rem;
+    color: #2c3e50;
+    padding: 4px 0px 0px 0px; }
+  .home .productNav {
+    padding: 44px 0px 0px 0px;
+    overflow: hidden;
+    background: transparent;
+    height: 320px; }
+    .home .productNav img {
+      margin: 20px auto 20px auto; }
+  .home .reason {
+    padding: 44px 0px 0px 0px;
+    height: 450px;
+    margin: 62 auto;
+    background: url(../images/reason.jpg) center no-repeat; }
+  .home .companyIntro {
+    padding-top: 44px; }
+    .home .companyIntro .companyIntroContent {
+      color: #757575; }
+      .home .companyIntro .companyIntroContent .title {
+        text-align: left;
+        font-size: 2rem;
+        padding: 12px; }
+      .home .companyIntro .companyIntroContent .content {
+        text-align: left;
+        font-size: 1.6rem;
+        line-height: 32px;
+        padding-top: 20px; }
+    .home .companyIntro .companyBg {
+      padding-top: 20px; }
+  .home .feature {
+    margin: 0 auto;
+    postion: relative;
+    padding-top: 44px;
+    margin-bottom: 44px; }
+
+.wifisolution {
+  margin-top: 14px;
+  text-align: center; }
+  .wifisolution .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product4_banner.jpg) center no-repeat; }
+  .wifisolution .wifidown {
+    padding: 44px 0px 0px 0px; }
+  .wifisolution .wifiicon {
+    padding: 0px 0px 0px 0px; }
+    .wifisolution .wifiicon .iconImg {
+      margin: 0px;
+      padding: 0px;
+      color: #006ab8;
+      padding: 44px 0px 0px 0px; }
+      .wifisolution .wifiicon .iconImg .title {
+        padding: 44px 0px 0px 0px;
+        font-size: 3.6rem; }
+  .wifisolution .wifipartnerBG {
+    margin: 44px 0px 0px 0px; }
+  .wifisolution .wifipartnerlist {
+    position: relative;
+    padding: 44px 0px 44px 0px;
+    margin: 0px auto; }
+    .wifisolution .wifipartnerlist .item {
+      float: left;
+      padding: 0px 0px 0px 0px; }
+  .wifisolution .solution {
+    padding: 15px 0px 15px 0px;
+    margin: 0px auto; }
+
+.wifiHire {
+  margin-top: 14px;
+  text-align: center; }
+  .wifiHire .module {
+    margin: 0 auto;
+    height: 612px;
+    background: url(../images/product4_banner.jpg) center no-repeat; }
+  .wifiHire .wifidown {
+    padding: 44px 0px 0px 0px; }
+  .wifiHire .wifiicon {
+    padding: 0px 0px 0px 0px; }
+    .wifiHire .wifiicon .iconImg {
+      margin: 0px;
+      padding: 0px;
+      color: #006ab8;
+      padding: 44px 0px 0px 0px; }
+      .wifiHire .wifiicon .iconImg .title {
+        padding: 44px 0px 0px 0px;
+        font-size: 3.6rem; }
+  .wifiHire .wifipartnerBG {
+    margin: 44px 0px 0px 0px; }
+  .wifiHire .wifipartnerlist {
+    position: relative;
+    padding: 44px 0px 44px 0px;
+    margin: 0px auto; }
+    .wifiHire .wifipartnerlist .item {
+      float: left;
+      padding: 0px 0px 0px 0px; }
+  .wifiHire .solution {
+    padding: 15px 0px 15px 0px;
+    margin: 0px auto; }
+
+.items {
+  postion: relative;
+  padding-bottom: 44px; }
+  .items .item {
+    margin: 34px 0px 0px 0px;
+    float: left; }
+
+.companyintro_alone {
+  text-align: center; }
+  .companyintro_alone .module {
+    margin: 0px auto;
+    height: 612px;
+    background: url(../images/product3_banner.jpg) center no-repeat; }
+  .companyintro_alone .content {
+    padding: 71px 0px 44px 0px;
+    line-height: 50px;
+    text-align: left;
+    color: #5d6e80;
+    margin: 0 auto;
+    width: 1280;
+    font-size: 2.5rem; }
+
+.contect {
+  text-align: center;
+  margin: 0 auto; }
+  .contect .module {
+    margin: 0 auto;
+    height: 612px; }
+  .contect .addr {
+    margin: 0 auto;
+    width: 1280;
+    font-size: 2.5rem; }
+    .contect .addr .company {
+      padding: 76px 0px 0px 0px;
+      font-size: 5rem; }
+    .contect .addr .address {
+      padding: 17px 0px 101px 0px;
+      font-size: 3rem; }
+
+.xsNav {
+  display: none;
+  padding: 2px 15px 12px 15px; }
+  .xsNav a {
+    color: white; }
+  .xsNav div {
+    border-radius: 6px 6px 6px 6px;
+    border: 2px solid;
+    padding: 10px 4px 10px 4px; }
+  .xsNav a:hover {
+    text-decoration: none;
+    color: #97FFFF; }
+
+.mgtop8 {
+  margin: 8px 0px 0px 0px; }
+
+.caseitem div {
+  margin: 3px; }
+
+/* Custom Styles */
+ul.nav-tabs {
+  width: 140px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px solid #006ab8; }
+
+ul.nav-tabs li {
+  margin: 0; }
+
+ul.nav-tabs li:first-child {
+  border-top: none; }
+
+ul.nav-tabs li a {
+  margin: 0;
+  padding: 8px 16px;
+  border-radius: 0; }
+
+ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover {
+  color: #fff;
+  background: #006ab8;
+  border: 1px solid #006ab8; }
+
+ul.nav-tabs li:first-child a {
+  border-radius: 4px 4px 0 0; }
+
+ul.nav-tabs li:last-child a {
+  border-radius: 0 0 4px 4px; }
+
+ul.nav-tabs.affix {
+  top: 30px;
+  /* Set the top position of pinned element */ }
+
+.title {
+  font-size: 0.4rem; }
+
+.barrage-area {
+  font-size: 0.28rem;
+  line-height: 2em;
+  overflow: hidden;
+  position: relative;
+  height: 300px;
+  background: url("../images/team_customer.png") center no-repeat;
+  margin: 10px;
+  list-style: none;
+  padding: 0px; }
+
+.barrage-item {
+  position: absolute;
+  left: 100%;
+  line-height: 2em;
+  font-size: 1.4rem;
+  padding: 0px 1em;
+  border-radius: 100px;
+  white-space: nowrap; }
+
+.barrage-item[data-rank="0"] {
+  top: 10%; }
+
+.barrage-item[data-rank="1"] {
+  top: 30%; }
+
+.barrage-item[data-rank="2"] {
+  top: 50%; }
+
+.barrage-item[data-rank="3"] {
+  top: 70%; }
+
+.barrage-red {
+  color: #FF3030;
+  border: 1px solid #FF3030; }
+
+.barrage-green {
+  color: #9BCD9B;
+  border: 1px solid #9BCD9B; }
+
+.barrage-blue {
+  color: #1874CD;
+  border: 1px solid #1874CD; }
+
+.barrage-yellow {
+  color: #FF8C00;
+  border: 1px solid #FF8C00; }
+
+.barrage-transparent {
+  color: transparent;
+  border: 1px solid transparent; }
+
+.bgColor {
+  background-color: #006ab8;
+  color: white; }
+
+.col-center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.table_row {
+  display: table;
+  padding-top: 10px; }
+
+.table_cell {
+  display: table-cell !important;
+  float: none !important;
+  vertical-align: middle;
+  text-align: center; }
+
+.casecontent {
+  background-color: #FFFFE0;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px; }
+
+.circle-100 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-color: white; }
+
+.circle-80 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-color: white; }
+
+.circle-60 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-color: white; }
+
+.circle-danger {
+  background-color: #d9534f;
+  color: white; }
+
+.circle-primary {
+  background-color: #337ab7;
+  color: white; }
+
+.circle-success {
+  background-color: #5cb85c;
+  color: white; }
+
+.circle-default {
+  background-color: #777;
+  color: white; }
+
+.circle-success {
+  background-color: #5cb85c;
+  color: white; }
+
+.circle-warning {
+  background-color: #f0ad4e;
+  color: white; }
+
+.circle-info {
+  background-color: #5bc0de;
+  color: white; }
+
+.m_given {
+  position: absolute;
+  z-index: 200;
+  padding-top: 40px; }
+  .m_given .ask {
+    font: 16px white; }
+  .m_given .give {
+    font: 22px white; }
+  .m_given image {
+    width: 100px;
+    height: 100px; }
+
+.m_company_cn {
+  color: #3498db;
+  font-size: 16px; }
+
+.m_company_en {
+  color: black;
+  font-size: 16px; }
+
+.m_companyintro .content {
+  line-height: 25px; }
+
+.m_company_summary {
+  font-size: 12px;
+  background: url("../images/navheader_bg5.jpg") 0px -85px;
+  color: white;
+  padding: 20px 0px 20px 0px; }
+  .m_company_summary span {
+    padding: 0px; }
+
+.m_more {
+  padding: 0px 4px 1px 5px;
+  margin-right: 2px;
+  border: dashed 1px;
+  font-size: 10px;
+  float: right;
+  height: 22px;
+  line-height: 20px; }
+
+.m_case_title {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  font-size: 15px;
+  color: #444;
+  text-align: left;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.m_case_desc {
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.m_foot {
+  background: url("../images/navheader_bg5.jpg") 0px -28px;
+  color: white;
+  font-weight: 2;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 20px;
+  margin-top: 20px; }
+
+.carousel-control.right {
+  background-image: none; }
+
+.carousel-control.left {
+  background-image: none; }
+
+.navbar-defalut .navbar-brand {
+  color: white; }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: transparent; }
+
+.navbar-header {
+  background: url("../images/navheader_bg5.jpg") 0px; }
+
+.main-nav {
+  background: url("../images/navheader_bg5.jpg") 0px 0px; }
+
+.carousel-caption {
+  top: 5px;
+  padding: 0px; }
+
+.carousel-indicators {
+  bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+.carousel-caption {
+  text-shadow: null;
+  left: 5%;
+  right: 5%; }
+
+/*# sourceMappingURL=scss.css.map */

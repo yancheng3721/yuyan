@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="unsafe-url"/>
+    <meta name="referrer" content="always"/>
+    <meta name="Keywords" content="上海玉言信息科技有限公司|上海WiFi|无线WiFi租聘|会场WiFi|年会WiFi|临时WiFi|WiFi布线">
+    <meta name="Description" content="上海玉言信息科技有限公司是高密度高并发无线WiFi网络产品的服务商方案商和租赁商,我们有4g网络并发方案为客户解决无宽带下的WiFi覆盖和无宽带下的网络4K高清直播。我们能提供万人会场的无线WiFi覆盖服务,WiFi的CDN数据加速服务,宽带加速服务,WiFi动态数据的清洗和终端用户画像服务,直播设备租赁服务,我们WiFi租赁业务适合大型企业年会,发布会,大型展会,演唱会等人群密集度高的场景下的应用,并可以用4g网络并发方案提供宽带加速业务,我们的WiFi数据清洗服务,适合连锁店,为其提供动态实时移动数据">
+    <title>玉言</title>
+        <link rel="stylesheet" type="text/css" href="./css/liMarquee.css" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/scss.css" />
+        <link rel="stylesheet" type="text/css" href="./css/case.css">
+        
+
+</head>
+<body data-spy="scroll" data-target="#myScrollspy">
+	<nav class="navbar navbar-default clearfix visible-xs" role="navigation" style="margin-bottom:0px;">
+				<div class="container"><!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sept-main-nav">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" style="color:white" href="#">玉言无线高密度WiFi租赁</a>
+					</div>
+					
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse main-nav" id="sept-main-nav">
+
+						<ul class="nav navbar-nav navbar-right">
+						<li><a style="color:white;float:top;text-align:right" href="./home_mobile.html" class="checked active">首页</a></li>
+						<li><a style="color:white;float:top;text-align:right" href="./wifi_hire.html">无线租赁</a></li>
+						<li><a style="color:white;float:top;text-align:right" href="./wifi_solution.html">无线覆盖</a></li>
+						<li><a style="color:white;float:top;text-align:right" href="./case.html">成功案例</a></li>
+						<li><a style="color:white;float:top;text-align:right" href="./contect_us.html">联系我们</a></li>
+					</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</nav>
+	<div class="header hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="company col-xs-12 col-sm-6">上海玉言信息科技有限公司</div>
+				<div class="col-xs-12 col-sm-6 text-right glyphicon glyphicon-phone-alt">&nbsp;服务热线：021-510999797</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	<div class="container visible-xs">
+		<div class="row xsNav">
+			<h4>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./home.html">首页</a></div>
+			  <div class="col-xs-4 label bgColor"><a class=" " href="./wifi_product.html">产品中心</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_hire.html">WiFi覆盖租赁</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_solution.html">WiFi覆盖方案</a></div>
+				<div class="col-xs-4 label label-success"><a class=" " href="./case.html">成功案例</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./contect_us.html">联系我们</a></div>
+			</h4>
+		</div>
+	</div>
+
+	<div class="custnav  hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3"><img class="logo" src="images/LOGO.jpg"></img></div>
+				<div class="col-sm-9">
+
+					<ul class="">
+						<li><a href="./home.html">首页</a></li>
+						<li><a href="./wifi_product.html">产品中心</a></li>
+						<li><a href="./wifi_hire.html">WiFi覆盖租赁</a></li>
+						<li><a href="./wifi_solution.html">WiFi覆盖方案</a></li>
+						<li><a href="./case.html" class="checked active">成功案例</a></li>
+						<li><a href="./contect_us.html">联系我们</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+    <div class="container">
+        <div class="row barrage-area">
+            <div></div>
+        </div>
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-10">
+                    <div id="section-2" class="casecontent">
+                        <div class="col-xs-12 col-sm-6 ">
+                        		<h2 class="text-center">比亚迪汽车展现场</h2>
+                            	<img class="center-block" src="./images/现场2.jpg"></img>
+                        
+                            
+                        </div>
+                        <div class="caseitem  col-xs-12 col-sm-6">
+                        	<div class="table_row" style="margin:0px auto;">
+                            	<span class="circle-danger  table_cell circle-100">5000人接入</span>
+	                            <span class="circle-primary table_cell circle-100">2000平方<br>WiFi覆盖</span>
+	                            <span class="circle-success table_cell circle-100">2500人<br>高并发网络</span>
+	                            
+                          </div>
+													<div class="casecontent">2017比亚迪上海国际汽车展，地址上海国家展览馆
+我们方案完成了 2000平方WiFi覆盖，5000人接入  2500人高并发网络，关注微信公众号吸粉上网，无线展示动态展示汽车广告，为客户解决动态的视频播放缓存服务，设备全部冗余双备</div>
+
+                        </div>
+                      <div class="clear"></div>
+                    </div>
+                	<hr>
+                    <div id="section-3" class="casecontent">
+                        <div class="caseitem col-xs-12 col-sm-6">
+                            <h2 class="text-center">卡思<strong> </strong>优派现场</h2>
+                						<img class="center-block" src="./images/现场3.jpg"></img>
+                            
+
+                        </div>
+                        <div class="caseitem col-xs-12 col-sm-6">
+                        	<div class="table_row" style="margin:0px auto;">
+                            	<span class="circle-danger  table_cell circle-100">平均<br>200-500人<br>接入</span>
+	                            <span class="circle-primary  table_cell circle-100">双频<br>AP覆盖</span>
+                          </div>
+                            
+                          <div class="casecontent">网络升级改造，原先15个AP上网掉线卡顿，升级后用了我方方案，关闭原来的ap，在原布线状况下部署了3个高并发AP，解决网络覆盖和卡顿问题 </div>
+                       	</div>
+                       	<div class="clear"></div>
+                    </div>
+                <hr>
+                    <div  id="section-4" class="casecontent">
+                        <div class="item col-xs-12 col-sm-6"><h2 class="text-center">上汽大通现场</h2>
+                						<img class="center-block" src="./images/现场4.jpg"></img></div>
+                        <div class="caseitem col-xs-12 col-sm-6">
+                            <div class="table_row" style="margin:0px auto;">
+                            	<span class="circle-danger  table_cell circle-100">设备冗余<br>双备份</span>
+	                            <span class="circle-primary  table_cell circle-100">4000平方<br>无线覆盖</span>
+	                            <span class="circle-success  table_cell circle-100">2000人<br>并发</span>
+	                            
+                            </div>
+                            <div class="table_row" style="margin:0px auto;">
+                            	<span class="circle-default  table_cell circle-100">硬软件<br>相结合</span>
+	                            <span class="circle-info  table_cell circle-100   ">可大量<br>数据缓存</span>
+	                            <span class="circle-warning  table_cell circle-100">互联互通</span>
+	                            
+                            </div>
+														<div class="casecontent">2017.8.8号上汽大通 D90发布现场
+地址上海船舶馆，为上汽大通汽车发布会提供网络保障，设备冗余双备份，4000平方无线覆盖，2000人并发，现场的cdn数据加速服务</div>
+
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                <hr>
+                    <div id="section-5" class="casecontent">
+                    		<div class="item col-xs-12 col-sm-6"><h2 class="text-center">FACEBODY现场</h2>
+                            <img class="center-block" src="./images/现场5.jpg"></img></div>
+                        <div class="caseitem col-xs-12 col-sm-6">
+                						<div class="table_row" style="margin:0px auto;">
+                            	<span class="circle-danger  table_cell circle-100">一台高并发<br>设备</span>
+	                            <span class="circle-primary  table_cell circle-100">1000平覆盖</span>
+	                            
+                            </div>
+                            
+                            <div class="casecontent"> Facebody健身馆，松江新城，一台高并发设备，1000平覆盖，部署快，因AP设备少，干扰少，上网快，不在掉线卡顿了</div>
+                            
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                <hr>
+                    <div id="section-6" class="casecontent">
+                        <div class="item col-xs-12 col-sm-6">
+                        	<h2 class="text-center">东尚股份现场</h2>
+                           <img class="center-block" src="./images/现场6.jpg"></img>
+                         </div>
+                        <div class="caseitem col-xs-12 col-sm-6">
+                						<div class="table_row" style="margin:0px auto;">
+                            	<span class="circle-danger  table_cell circle-100">高并发AP<br>覆盖广</span>
+	                            <span class="circle-primary  table_cell circle-100">接入量多</span>
+	                            <span class="circle-success  table_cell circle-100">设置简单</span>
+	                            
+                            </div>
+                            <div class="table_row" style="margin:0px auto;">
+                            	<span class="circle-default  table_cell circle-100">远程维护</span>
+	                            <span class="circle-info  table_cell circle-100">节省成本</span>
+	                            
+                            </div>
+														<div class="casecontent">上海东尚股份，
+智慧工厂解决方案商，原来多个AP布线成本高，配置麻烦，掉线，用了我们方案，布线减少了70%，AP设备减少了60% ,在工厂大空间下，用我们的高并发AP覆盖范围广接入量多设置简单，远程维护，为客户节省了布线成本，降低了硬件成本和维护成本，更加符合智慧工厂的需求</div>
+
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                <hr>
+            </div>
+            <div class="col-xs-3 col-sm-2" id="myScrollspy">
+                <ul class="nav nav-tabs nav-stacked hidden-xs" data-spy="affix" data-offset-top="395">
+                    <li class="active"><a href="#section-2">比亚迪汽车展</a></li>
+                    <li><a href="#section-3">卡思 优派</a></li>
+                    <li><a href="#section-4">上汽大通</a></li>
+                    <li><a href="#section-5">FACEBODY</a></li>
+                    <li><a href="#section-6">东尚股份</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="wifipartnerlist container">
+        <div class="row">
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场1.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场2.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场3.jpg"></img></div>
+
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场4.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场5.jpg"></img></div>
+            <div class="item col-xs-6 col-sm-4"><img src="./images/现场6.jpg"></img></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    -->
+	<div class="wifiHire">
+
+	</div>
+	
+
+	<div class="foot hidden-xs">
+		<div class="company">联系电话:021-51099797<br>
+		  QQ邮箱:783445478@qq.com<br>
+	    上海玉言信息科技有限公司<br>
+	    上海市松江区九泾路736号小寅商务楼2层</div>
+		<div class="footNav">
+				<ul>
+				  <li><span class="checked"><a href="home.html">首页</a></span></li>
+				  <li><span><a href="wifi_product.html">产品中心</a></span></li>
+				  <li><span><a href="wifi_hire.html">WiFi无线覆盖租赁</a></span></li>
+				  <li><span><a href="wifi_solution.html">WiFi无线覆盖方案</a></span></li>
+				  <li><a href="case.html">成功案例</a></li>
+				  <li><a href="contect_us.html">联系我们</a></li>
+				  &nbsp;
+				</ul>
+				<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="container visible-xs">
+		<div class="row xsNav">
+			<h4>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./home.html">首页</a></div>
+			  <div class="col-xs-4 label bgColor"><a class=" " href="./wifi_product.html">产品中心</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_hire.html">WiFi覆盖租赁</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_solution.html">WiFi覆盖方案</a></div>
+				<div class="col-xs-4 label label-success"><a class=" " href="./case.html">成功案例</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./contect_us.html">联系我们</a></div>
+			</h4>
+		</div>
+	</div>
+	<footer class=" text-center visible-xs">
+		  <div class="container m_foot visible-xs">
+		  商务洽谈:021-51099797<Br>
+		  QQ邮箱:783445478@qq.com<Br>
+			上海市松江区九泾路736号小寅商务楼2层<Br>
+			版权所属：上海玉言信息科技有限公司<Br>
+			备案号：沪ICP备17031286
+			</div>
+		</footer>
+</body>
+<script src="./js/jquery-2.1.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src = "./js/barrage.js"></script>
+<script src="./js/jquery-2.1.1.min.js"></script>
+
+<script>
+    var colors = ["red","green","blue","yellow","transparent"];
+    var barrage = new Barrage({
+            wrapper : $(".barrage-area").eq(0),
+            rank : 4,
+            circle : false ,
+            tmp : function(data,rank){
+                var colorIdx=parseInt(Math.random()*colors.length);
+                return '<li class = "barrage-item barrage-'+colors[colorIdx] +'" data-rank = "'+rank+'">'+data.txt+'</li>';
+            },
+            data : [{
+                    "id" : "1",
+                    "txt" : "上海无线租赁公司"
+                },{
+                    "id" : "2",
+                    "txt" : "无线租赁"
+                },{
+                    "id" : "3",
+                    "txt" : "无线覆盖"
+                },{
+                    "id" : "4",
+                    "txt" : "会场WiFi"
+                },{
+                    "id" : "5",
+                    "txt" : "直播WiFi"
+                }
+            ],
+            speed : 2,
+            rank : 4
+        });
+
+        barrage.begin();
+
+
+</script>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="unsafe-url"/>
+    <meta name="referrer" content="always"/>
+    <meta name="Keywords" content="上海玉言信息科技有限公司|上海WiFi|无线WiFi租聘|会场WiFi|年会WiFi|临时WiFi|WiFi布线">
+    <meta name="Description" content="上海玉言信息科技有限公司是高密度高并发无线WiFi网络产品的服务商方案商和租赁商,我们有4g网络并发方案为客户解决无宽带下的WiFi覆盖和无宽带下的网络4K高清直播。我们能提供万人会场的无线WiFi覆盖服务,WiFi的CDN数据加速服务,宽带加速服务,WiFi动态数据的清洗和终端用户画像服务,直播设备租赁服务,我们WiFi租赁业务适合大型企业年会,发布会,大型展会,演唱会等人群密集度高的场景下的应用,并可以用4g网络并发方案提供宽带加速业务,我们的WiFi数据清洗服务,适合连锁店,为其提供动态实时移动数据">
+    <title>玉言</title>
+        <link rel="stylesheet" type="text/css" href="./css/liMarquee.css" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/scss.css" />
+        <script src="./js/jquery-2.1.1.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+
+    <meta name="referrer" content="unsafe-url"/>
+    <meta name="referrer" content="always"/>
+</head>
+<body>
+	<nav class="navbar navbar-default clearfix visible-xs" role="navigation" style="margin-bottom:0px;">
+				<div class="container"><!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sept-main-nav">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" style="color:white" href="#">玉言无线高密度WiFi租赁</a>
+					</div>
+					
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse main-nav" id="sept-main-nav">
+
+						<ul class="nav navbar-nav navbar-right">
+						<li><a style="color:white;float:top;text-align:right" href="./home_mobile.html" class="checked active">首页</a></li>
+						<li><a style="color:white;float:top;text-align:right" href="./wifi_hire.html">无线租赁</a></li>
+						<li><a style="color:white;float:top;text-align:right" href="./wifi_solution.html">无线覆盖</a></li>
+						<li><a style="color:white;float:top;text-align:right" href="./case.html">成功案例</a></li>
+						<li><a style="color:white;float:top;text-align:right" href="./contect_us.html">联系我们</a></li>
+					</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</nav>
+	<div class="header hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="company col-xs-12 col-sm-6">上海玉言信息科技有限公司</div>
+				<div class="col-xs-12 col-sm-6 text-right glyphicon glyphicon-phone-alt">&nbsp;服务热线：021-510999797</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	<div class="container visible-xs">
+		<div class="row xsNav">
+			<h4>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./home.html">首页</a></div>
+			  <div class="col-xs-4 label label-success"><a class=" " href="./wifi_product.html">产品中心</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_hire.html">WiFi覆盖租赁</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_solution.html">WiFi覆盖方案</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./case.html">成功案例</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./contect_us.html">联系我们</a></div>
+			</h4>
+		</div>
+	</div>
+
+	<div class="custnav  hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3"><img class="logo" src="images/LOGO.jpg"></img></div>
+				<div class="col-sm-9">
+
+					<ul class="">
+						<li><a href="./home.html">首页</a></li>
+						<li><a href="./wifi_product.html" class="checked active">产品中心</a></li>
+						<li><a href="./wifi_hire.html">WiFi覆盖租赁</a></li>
+						<li><a href="./wifi_solution.html">WiFi覆盖方案</a></li>
+						<li><a href="./case.html">成功案例</a></li>
+						<li><a href="./contect_us.html">联系我们</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+	<div class="wifiproduct">
+		<div class="module"><img src="./images/product_banner.jpg"></img></div>
+	</div>
+			<!--
+			<ul>
+			  <li>无线ODM产品</li>
+		  </ul>
+			-->
+		<div class="container">
+			<div class="row">
+				<!--
+				<div class="col-xs-12 mgtop8">
+					<div class="input-group">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+                  <button class="btn bgColor" type="button">Go!</button>
+              </span>
+          </div>
+       	</div>
+       	
+       	<div class="col-xs-12 btn-group">
+       		<div class="btn-group  pull-right">
+	       		<span class="btn btn-default mgtop8">路由器</span>
+	       		<span class="btn btn-default mgtop8">无线网桥</span>
+	       		<span class="btn btn-default mgtop8">交换机</span>
+	       		<span class="btn btn-default mgtop8">无线设备</span>
+       		</div>
+				</div>
+			-->
+		</div>
+		<div class="container ">
+			<div class="row items">
+				<div class="col-xs-12">
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品1.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品2.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品3.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品4.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品5.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品9.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品6.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品7.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品8.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品10.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品11.jpg"></img></a></div>
+					<div class="col-xs-12 col-sm-6 col-md-3 item "><a href="javascript:(0);"><img class="center-block" src="./images/产品12.jpg"></img></a></div>
+						
+				</div>
+			  
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+	</div>
+		
+		
+	
+	<div class="foot hidden-xs">
+		<div class="company">联系电话:021-51099797<br>
+		  QQ邮箱:783445478@qq.com<br>
+	    上海玉言信息科技有限公司<br>
+	    上海市松江区九泾路736号小寅商务楼2层</div>
+		<div class="footNav">
+				<ul>
+				  <li><span class="checked"><a href="home.html">首页</a></span></li>
+				  <li><span><a href="wifi_product.html">产品中心</a></span></li>
+				  <li><span><a href="wifi_hire.html">WiFi无线覆盖租赁</a></span></li>
+				  <li><span><a href="wifi_solution.html">WiFi无线覆盖方案</a></span></li>
+				  <li><a href="case.html">成功案例</a></li>
+				  <li><a href="contect_us.html">联系我们</a></li>
+				  &nbsp;
+				</ul>
+				<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="container visible-xs">
+		<div class="row xsNav">
+			<h4>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./home.html">首页</a></div>
+			  <div class="col-xs-4 label label-success"><a class=" " href="./wifi_product.html">产品中心</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_hire.html">WiFi覆盖租赁</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./wifi_solution.html">WiFi覆盖方案</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./case.html">成功案例</a></div>
+				<div class="col-xs-4 label bgColor"><a class=" " href="./contect_us.html">联系我们</a></div>
+			</h4>
+		</div>
+	</div>
+	<footer class=" text-center visible-xs">
+		  <div class="container m_foot visible-xs">
+		  商务洽谈:021-51099797<Br>
+		  QQ邮箱:783445478@qq.com<Br>
+			上海市松江区九泾路736号小寅商务楼2层<Br>
+			版权所属：上海玉言信息科技有限公司<Br>
+			备案号：沪ICP备17031286
+			</div>
+		</footer>
+</body>
+</html>
