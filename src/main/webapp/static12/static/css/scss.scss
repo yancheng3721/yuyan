@@ -1,0 +1,697 @@
+﻿$bgcolor: #006ab8;
+$navcolor:#5d6e80;
+$navcolorchecked:#00d6b3;
+$productwidth:341;
+$productheight:264;
+$basepadding:44px;
+$basefont: "Microsoft YaHei" !important;
+$bodywidth:1300px;
+$browser-default-font-size: 10px !default;
+
+html { font-size: $browser-default-font-size; }
+
+@function pxTorem($px){
+	@return $px / $browser-default-font-size * 1rem; 
+}
+
+
+body{
+	font-family:$basefont;
+  //min-width:$bodywidth;
+  //min-height:auto;
+  padding:0px;
+  margin:0px;
+}
+a{text-decoration:none}
+.wrapper {
+    width: $bodywidth;
+    min-width: $bodywidth;
+    margin: 0 auto;
+    clear: both;
+}
+img{
+	display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.moduleNav{
+	margin:0 auto;
+	ul{
+		display:inline-block;
+		margin:0px;
+		padding:0px;
+		
+		li{
+			float:left;
+			list-style:none;
+			margin:0 23 0 23;
+			padding:0px;
+			font-size:pxTorem(36px);
+			color:#ffffff;
+			background-color:$bgcolor;
+			padding:20px 46px 20px 46px;
+			border:1px solid $bgcolor;
+		}
+		.checked{
+				border:1px solid $bgcolor;
+				color:$bgcolor;
+				background-color:white;
+			}
+	}
+}
+
+.wifibg{
+}
+
+.header {
+	background:$bgcolor;
+	font-size:pxTorem(18px);
+	color:white;
+	padding:14px 0 14px 0;
+}
+.custnav{
+	height:78px;
+	padding:0px 0px 0 0px;
+	margin:0 auto;
+	.logo{
+		margin-top:29px;
+		padding-left:0px;
+		float:left;
+	}
+	ul{
+		padding:0px;
+		margin:0px;
+		float:right;
+		margin-top:32px;
+		margin-left:20px;
+		li{
+			font-size:pxTorem(18px);
+			font-weight:550;
+			float:left;
+			list-style:none;
+			margin-right:32px;
+			a{
+				color:$navcolor;
+				
+			}
+			.checked{
+					color:$navcolorchecked;
+				}
+			
+		}
+	}
+}
+
+.foot{
+	padding:$basepadding 0px $basepadding 0px;
+	text-align:center;
+	align:center;
+	background-color:$bgcolor;
+	.company{
+		line-height:66px;
+		color:white;
+		width:690px;
+		padding:$basepadding 22px $basepadding 22px;
+		margin:0 auto; 
+		border: 1px solid white;
+		font-size:pxTorem(34px);
+		text-align:center;
+	}
+	.footNav{
+		text-align:center;
+		color:white;
+		margin:0 auto; 
+		width:720px;
+		ul{
+			padding:$basepadding 0px 0px 0px;
+			margin:0;
+			li{
+				font-size:pxTorem(18px);
+				font-weight:550;
+				float:left;
+				list-style:none;
+				margin:0px 14px 0px 14px;
+			}
+		}
+		a{
+		color:white;
+		}
+	}
+}
+.gap{
+	height:105px;
+}
+.clear{
+	clear:both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.home{
+	text-align:center;
+	.module{
+		height:612px;
+		background:url(../images/product3_banner.jpg) center  no-repeat;
+	}
+	.productIntro{
+		margin:0 auto;
+		padding:$basepadding+30px 0px 0px 0px;
+		font-size:pxTorem(30px);
+		.product{
+			color:#00d6b3;
+		}
+		.intro{
+			color:#2c3e50;
+		}
+	}
+	.productIntroCN{
+		font-size:pxTorem(30px);
+		color:#2c3e50;
+		padding:$basepadding+(-40px) 0px 0px 0px;
+	}
+	.productNav{
+		padding:$basepadding 0px 0px 0px;
+		overflow:hidden;
+		background:transparent;
+		height:320px;
+		img{
+			margin:20px auto 20px auto;
+		}
+		
+	}
+	.reason{
+		padding:$basepadding 0px 0px 0px;
+		height:450px;
+		margin:62 auto;
+		background:url(../images/reason.jpg) center  no-repeat;
+	}
+	.companyIntro{
+		padding-top:$basepadding;
+		.companyIntroContent{
+			color:#757575;
+			.title{
+				text-align:left;
+				font-size:pxTorem(20px);
+				padding:12px;
+			}
+			.content{
+				text-align:left;
+				font-size:pxTorem(16px);
+				line-height:32px;
+				padding-top:20px;
+			}
+		}
+		.companyBg{
+			padding-top:20px;
+		}
+	}
+	.feature{
+			margin:0 auto;
+			postion:relative;
+			padding-top:$basepadding;
+			margin-bottom:$basepadding;
+		}
+}
+
+.wifiproduct{
+	margin-top:$basepadding+(-30px);
+	text-align:center;
+}
+
+
+.wifisolution{
+	margin-top:$basepadding+(-30px);
+	text-align:center;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background:url(../images/product4_banner.jpg) center no-repeat;
+	}
+	
+	
+	.wifidown{
+		padding:$basepadding 0px 0px 0px;
+	}
+	.wifiicon{
+		padding:0px 0px 0px 0px;
+		.iconImg{
+			margin:0px;
+			padding:0px;
+			color:$bgcolor;
+			padding:$basepadding 0px 0px 0px;
+			.title{
+				padding:$basepadding 0px 0px 0px;
+			font-size:pxTorem(36px);
+			}
+		}
+		
+	}
+	.wifipartnerBG{
+		
+		margin:$basepadding 0px 0px 0px;
+	}
+	.wifipartnerlist{
+		position:relative;
+		padding:$basepadding 0px $basepadding 0px;
+		margin:0px auto;
+		.item{
+			float:left;
+			padding:0px 0px 0px 0px;
+		}
+	}
+	.solution{
+		padding:15px 0px 15px 0px;
+		margin:0px auto;
+	}
+	
+	
+}
+
+.wifiHire{
+	margin-top:$basepadding+(-30px);
+	text-align:center;
+	.module{
+		margin:0 auto;
+		height:612px;
+		background:url(../images/product4_banner.jpg) center no-repeat;
+	}
+	
+	
+	.wifidown{
+		padding:$basepadding 0px 0px 0px;
+	}
+	.wifiicon{
+		padding:0px 0px 0px 0px;
+		.iconImg{
+			margin:0px;
+			padding:0px;
+			color:$bgcolor;
+			padding:$basepadding 0px 0px 0px;
+			.title{
+				padding:$basepadding 0px 0px 0px;
+			font-size:pxTorem(36px);
+			}
+		}
+		
+	}
+	.wifipartnerBG{
+		margin:$basepadding 0px 0px 0px;
+	}
+	.wifipartnerlist{
+		position:relative;
+		padding:$basepadding 0px $basepadding 0px;
+		margin:0px auto;
+		.item{
+			float:left;
+			padding:0px 0px 0px 0px;
+		}
+	}
+	.solution{
+		padding:15px 0px 15px 0px;
+		margin:0px auto;
+	}
+	
+	
+}
+
+
+
+.items{
+		postion:relative;
+		.item{
+			margin:$basepadding+(-10px) 0px 0px 0px;
+			float:left;
+		}
+		padding-bottom:$basepadding;
+	}
+
+.companyintro_alone{
+	text-align:center;
+	.module{
+		margin:0px auto;
+		height:612px;
+		background:url(../images/product3_banner.jpg) center  no-repeat;
+	}
+	.content{
+		padding:71px 0px $basepadding 0px;
+		line-height:50px;
+		text-align:left;
+		color:$navcolor;
+		margin:0 auto;
+		width:1280;
+		font-size:pxTorem(25px);
+		
+	}
+}
+
+.contect{
+	text-align:center;
+	margin:0 auto;
+	.module{
+		margin:0 auto;
+		height:612px;
+	}
+	.addr{
+		margin:0 auto;
+		width:1280;
+		font-size:pxTorem(25px);
+		.company{
+			padding:76px 0px 0px 0px;
+			font-size:pxTorem(50px);
+		}
+		.address{
+			padding:17px 0px 101px 0px;
+			font-size:pxTorem(30px);
+		}
+	}
+}
+
+.xsNav{
+	display:none;
+	padding:2px 15px 12px 15px;
+	a{
+		
+		color:white;
+	}
+	div{
+		border-radius: 6px 6px 6px 6px;
+		border:2px solid;
+		padding:10px 4px 10px 4px;
+	}
+	a:hover{
+		
+		text-decoration: none;
+		color:#97FFFF;
+	}
+	
+}
+
+.mgtop8{
+	margin:8px 0px 0px 0px;
+}
+
+.caseitem{
+	div{
+		margin:3px;
+	}
+}
+
+/* Custom Styles */
+        ul.nav-tabs{
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid $bgcolor;
+        }
+        ul.nav-tabs li{
+        margin: 0;
+        }
+        ul.nav-tabs li:first-child{
+        border-top: none;
+        }
+        ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+        }
+        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: $bgcolor;
+        border: 1px solid $bgcolor;
+        }
+        ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+        }
+        ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+        }
+        ul.nav-tabs.affix{
+        top: 30px; /* Set the top position of pinned element */
+        }
+        
+        
+        .title {font-size:0.4rem;}
+        .barrage-area{
+        font-size:0.28rem;
+        line-height:2em;
+        overflow:hidden;
+        position:relative;
+        height:300px;
+        background:url("../images/team_customer.png") center no-repeat ;
+        margin:10px;
+        list-style: none;
+        padding: 0px;
+        }
+
+        .barrage-item{
+        position:absolute;
+        left:100%;
+        line-height:2em;
+        font-size:pxTorem(14px);
+        padding:0px 1em;
+        border-radius:100px;
+        white-space: nowrap;
+        }
+
+        .barrage-item[data-rank = "0"]{
+        top:10%;
+        }
+        .barrage-item[data-rank = "1"]{
+        top:30%;
+        }
+        .barrage-item[data-rank = "2"]{
+        top:50%;
+        }
+        .barrage-item[data-rank = "3"]{
+        top:70%;
+        }
+        .barrage-red{
+            color:#FF3030;
+            border:1px solid #FF3030;
+        }
+        .barrage-green{
+        color:#9BCD9B;
+        border:1px solid #9BCD9B;
+        }
+        .barrage-blue{
+        color:#1874CD;
+        border:1px solid #1874CD;
+        }
+        .barrage-yellow{
+        color:#FF8C00;
+        border:1px solid #FF8C00;
+        }
+        .barrage-transparent{
+        color:transparent;
+        border:1px solid transparent;
+        }
+        
+        .bgColor{
+        	background-color:$bgcolor;
+        	color:white;
+        }
+
+.col-center-block {  
+    float: none;  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+.table_row{
+	display:table;
+	padding-top:10px;
+}
+.table_cell{
+	display:table-cell!important;
+	float:none !important;
+	vertical-align: middle;
+	text-align:center;
+}
+.casecontent{
+	background-color:#FFFFE0;
+	border-radius:20px;
+	padding:10px;
+	margin:10px;
+}
+.circle-100{
+	width:90px;
+	height:90px;
+	border-radius:50%;
+	border:2px solid white;
+	font-color:white;
+}
+.circle-80{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	border:2px solid white;
+	font-color:white;
+}
+.circle-60{
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	border:2px solid white;
+	font-color:white;
+}
+.circle-danger{
+	background-color:#d9534f;
+	color:white;
+}
+.circle-primary{
+	background-color:#337ab7;
+	color:white;
+	
+}
+.circle-success{
+	background-color:#5cb85c;
+	color:white;
+}
+.circle-default{
+	background-color:#777;
+	color:white;
+}
+.circle-success{
+	background-color:#5cb85c;
+	color:white;
+}
+.circle-warning{
+	background-color:#f0ad4e;
+	color:white;
+}
+.circle-info{
+	background-color:#5bc0de;
+	color:white;
+}
+.m_body{
+	
+	
+}
+
+.m_given{
+	position:absolute;
+	z-index:200;
+	padding-top:40px;
+	.ask{
+		font:16px white;
+	}
+	.give{
+		font:22px white;
+	}
+	image{
+		width:100px;
+		height:100px;
+	}
+}
+
+.m_company_cn{
+	color:#3498db;
+	font-size:16px;
+}
+.m_company_en{
+	color:black;
+	font-size:16px;
+}
+.m_companyintro{
+	.content{
+		line-height:25px;
+	}
+}
+.m_company_summary{
+	font-size:12px;
+	background:url("../images/navheader_bg5.jpg") 0px -85px;
+	color:white;
+	padding:20px 0px 20px 0px;
+	span{
+		padding:0px;
+	}
+}
+.m_more{
+	padding:0px 4px 1px 5px;
+	margin-right:2px;
+	border:dashed 1px;
+	font-size:10px;
+	float:right;
+	height:22px;
+	line-height:20px;
+}
+.m_case_title{
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  font-size: 15px;
+  color: #444;
+  text-align: left;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.m_case_desc{
+	padding: 0;
+  margin: 0;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.m_foot{
+	background:url("../images/navheader_bg5.jpg") 0px -28px;
+	color:white;
+	font-weight:2;
+	font-size:14px;
+	line-height:30px;
+	padding:20px;
+	margin-top:20px;
+}
+
+.carousel-control.right{
+	background-image:none;
+	}
+.carousel-control.left{
+	background-image:none;
+}
+.navbar-defalut .navbar-brand{
+		color:white;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background:transparent;
+}
+
+
+.navbar{
+	
+	
+	}
+.navbar-header{
+	background:url("../images/navheader_bg5.jpg") 0px;
+	
+	}
+	.main-nav {
+		background:url("../images/navheader_bg5.jpg") 0px 0px;
+		}
+.carousel-caption{
+	top:5px;
+	padding:0px;
+	}
+.carousel-indicators{
+	bottom:0px;
+	margin-bottom:0px;
+	margin-top:0px;
+	}
+.carousel-caption{
+	text-shadow:null;
+	left:5%;
+	right:5%;
+	}
