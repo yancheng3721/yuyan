@@ -183,7 +183,7 @@
                 <version>9.2.8.v20150217</version>
                 <configuration>
                     <httpConnector>
-                        <port>8080</port>
+                        <port>80</port>
                     </httpConnector>
                     <!--
                     <scanIntervalSeconds>2</scanIntervalSeconds>
@@ -191,7 +191,7 @@
                     <reload>manual</reload>
                     <dumpOnStart>true</dumpOnStart>
                     <webApp>
-                        <contextPath>/${project.artifactId}</contextPath>
+                        <contextPath>/yuyan</contextPath>
                         <!--
                         <resourceBases>
                           <resourceBase>${project.basedir}/src/main/webapp</resourceBase>

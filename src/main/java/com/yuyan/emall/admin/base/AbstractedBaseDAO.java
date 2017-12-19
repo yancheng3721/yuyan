@@ -388,7 +388,7 @@ public abstract class AbstractedBaseDAO {
 	}
 
 	public List<Map<String, Object>> queryAll(Map<String, String> param) {
-		String sql = getQuerySql();
+		String sql = getQuerySql() + " WHERE 1=1 #queryParams#";
 		List<Object> values = null;
 		if (param != null) {
 			values = new ArrayList<Object>();

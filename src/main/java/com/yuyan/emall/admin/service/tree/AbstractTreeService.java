@@ -60,7 +60,7 @@ public abstract class AbstractTreeService {
 		Node root = new DefaultNode();
 		root.setId(DefaultNode.INITIAL_ID_SEQUENCE);
 		root.setParent(null);
-		root.setParentId(-1);
+		root.setParentId(-1l);
 		root.setLevel(-1);
 		root.setLeaf(false);
 		return root;

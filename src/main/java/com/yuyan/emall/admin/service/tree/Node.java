@@ -3,13 +3,13 @@ package com.yuyan.emall.admin.service.tree;
 import java.util.Collection;
 
 public interface Node {
-    public Integer getId();
+    public Long getId();
     
-    public void setId(Integer id) ;
+    public void setId(Long id) ;
     
-    public Integer getParentId() ;
+    public Long getParentId() ;
     
-    public void setParentId(Integer parentId) ;
+    public void setParentId(Long parentId) ;
 
     public int getLevel() ;
 

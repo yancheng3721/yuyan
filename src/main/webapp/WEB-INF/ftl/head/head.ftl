@@ -5,21 +5,21 @@
 <title>玉言科技</title>
 
 <!-- CSS -->		
-<link href="/admin/assets/plugins/jquery-ui/css/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
-<link href="/admin/assets/css/common1.css" rel="stylesheet" />
+<link href="/yuyan/assets/plugins/jquery-ui/css/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+<link href="/yuyan/assets/css/common1.css" rel="stylesheet" />
 <!-- JS -->
-<script src="/admin/assets/vendor/js/jquery-1.7.2.min.js"></script>
-<script src="/admin/assets/plugins/jquery-ui/js/jquery-ui-1.8.21.custom.min.js" language="javascript" type="text/javascript"></script>
-<script src="/admin/assets/plugins/page/page.js" language="javascript" type="text/javascript"></script>
-<script src="/admin/assets/plugins/zTree3.5/jquery.ztree.core-3.5.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/zTree3.5/jquery.ztree.excheck-3.5.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/zTree3.5/jquery.ztree.exedit-3.5.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/time/WdatePicker.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/jquery-form/jquery.form.js" type="text/javascript"></script> 
+<script src="/yuyan/assets/vendor/js/jquery-1.7.2.min.js"></script>
+<script src="/yuyan/assets/plugins/jquery-ui/js/jquery-ui-1.8.21.custom.min.js" language="javascript" type="text/javascript"></script>
+<script src="/yuyan/assets/plugins/page/page.js" language="javascript" type="text/javascript"></script>
+<script src="/yuyan/assets/plugins/zTree3.5/jquery.ztree.core-3.5.js" type="text/javascript"></script>
+<script src="/yuyan/assets/plugins/zTree3.5/jquery.ztree.excheck-3.5.js" type="text/javascript"></script>
+<script src="/yuyan/assets/plugins/zTree3.5/jquery.ztree.exedit-3.5.js" type="text/javascript"></script>
+<script src="/yuyan/assets/plugins/time/WdatePicker.js" type="text/javascript"></script>
+<script src="/yuyan/assets/plugins/jquery-form/jquery.form.js" type="text/javascript"></script> 
 
 
-<link type="text/css" href="/admin/assets/plugins/zTree/css/demo.css" rel="stylesheet">
-<link type="text/css" href="/admin/assets/plugins/zTree/css/zTreeStyle.css" rel="stylesheet">
+<link type="text/css" href="/yuyan/assets/plugins/zTree/css/demo.css" rel="stylesheet">
+<link type="text/css" href="/yuyan/assets/plugins/zTree/css/zTreeStyle.css" rel="stylesheet">
 
 
 <script>

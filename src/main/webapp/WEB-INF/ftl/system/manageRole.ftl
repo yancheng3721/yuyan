@@ -85,7 +85,7 @@ $(function() {
     function expand(obj){
     	if(obj.ID){
 			$.ajax({
-				url: '/admin/role/expandRole.do',
+				url: '/yuyan/role/expandRole.do',
 				type: 'POST',
 				dataType: 'json',
 				timeout: 5000,
@@ -118,7 +118,7 @@ $(function() {
 			return;
 		}
 		$.ajax({
-				url: '/admin/role/batchDeleteRole.do',
+				url: '/yuyan/role/batchDeleteRole.do',
 				type: 'POST',
 				dataType: 'json',
 				timeout: 5000,
@@ -166,7 +166,7 @@ $(function() {
 		}
 		//alert(222);
 		$.ajax({
-				url: '/admin/role/saveRole.do',
+				url: '/yuyan/role/saveRole.do',
 				type: 'post',
 				dataType: 'json',
 				timeout: 5000,
@@ -197,7 +197,7 @@ $(function() {
 			return;
 		}
 		$.ajax({
-				url: '/admin/role/deleteRole.do',
+				url: '/yuyan/role/deleteRole.do',
 				type: 'post',
 				dataType: 'json',
 				timeout: 5000,
@@ -243,7 +243,7 @@ $(function() {
 		
 		var searchForm = $("#searchForm");
 		var tmp = searchForm.attr("action");
-		searchForm.attr("action","/admin/role/queryRole.do");
+		searchForm.attr("action","/yuyan/role/queryRole.do");
 		searchForm.submit();
 	}
 	
@@ -288,7 +288,7 @@ $(function() {
 				title: "同步"
 		}); 
 		$.ajax({
-				url: '/admin/role/syncRole.do',
+				url: '/yuyan/role/syncRole.do',
 				type: 'POST',
 				dataType: 'json',
 				success:function(result){
@@ -328,7 +328,7 @@ $(function() {
                 	$("#errorMessage").html(data.obj.message);
                 	alert(data.obj.message);
                 	if (data.obj.message == "上传成功!") {
-                	   window.location.href="/admin/role/manageRole.do";
+                	   window.location.href="/yuyan/role/manageRole.do";
                 	}
                 },
                 error:function(xhr){
@@ -340,7 +340,7 @@ $(function() {
 	function exportCsv() {
 		var searchForm = $("#searchForm");
 		var tmp = searchForm.attr("action");
-		searchForm.attr("action","/admin/role/exportRole.do");
+		searchForm.attr("action","/yuyan/role/exportRole.do");
 		searchForm.submit();
 		searchForm.attr("action",tmp);
 	}
@@ -555,7 +555,7 @@ $(function() {
 			
 			<div class="searchCenter pagenation" style="text-align:right">
 				<script type="text/javascript">
-					window.__page=new SnPage(document.getElementById("searchForm"),'/admin/role/queryRole.do','${page.totalPage?c}','${page.currentPage?c}');
+					window.__page=new SnPage(document.getElementById("searchForm"),'/yuyan/role/queryRole.do','${page.totalPage?c}','${page.currentPage?c}');
 				</script>
 				每页&nbsp;<input type="text"  name="length" style="width:40px;" value="${page.length?c}"/>&nbsp;条记录&nbsp;|
 				总共<font color="red">${page.totalPage?c}</font>页，<font color="red">${page.total?c}</font>条记录&nbsp;|&nbsp;第<font color="red">${page.currentPage?c}</font>页
@@ -609,7 +609,7 @@ $(function() {
 </div>
 <#--批量上传-->
 <div class="showBox" id="batchupload" style="display:none;" title="角色批量上传">
-	<form action="/admin/role/uploadRole.do" method="POST" id="sguploadForm" name="sguploadForm" enctype="multipart/form-data" onsubmit="return false;">
+	<form action="/yuyan/role/uploadRole.do" method="POST" id="sguploadForm" name="sguploadForm" enctype="multipart/form-data" onsubmit="return false;">
 		<div style="text-align: center;margin: 10px 0;">
 			<span>路径：</span>
 			<input type="hidden" name="importFields" value="NAME,CODE,STATUS"/>

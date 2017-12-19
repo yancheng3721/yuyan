@@ -6,11 +6,11 @@ public class DefaultNode implements Node {
     
     
 
-    public static final Integer INITIAL_ID_SEQUENCE = 0;
+    public static final Long INITIAL_ID_SEQUENCE = 0l;
     
     protected int coreRoot;
-    protected Integer id;
-    protected Integer parentId;
+    protected Long id;
+    protected Long parentId;
     protected int level ;
     protected Node root;
     protected Node parent;
@@ -22,19 +22,19 @@ public class DefaultNode implements Node {
      */
     protected int isChanged = 0;
     
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
     
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
     
-    public Integer getParentId() {
+    public Long getParentId() {
         return parentId;
     }
     
-    public void setParentId(Integer parentId) {
+    public void setParentId(Long parentId) {
         this.parentId = parentId;
     }
     

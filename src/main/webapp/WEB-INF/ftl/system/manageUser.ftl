@@ -31,7 +31,7 @@ $(function() {
 		});
 		
 	});	
-	var allFiledsStr = '[{"_CN_":"ID","_KEY_":"ID"},{"_CN_":"用户名","_KEY_":"NAME","_NOT_NULL_":"1"},{"_CN_":"别名","_KEY_":"ALIAS"},{"_CN_":"密码","_KEY_":"PASSWORD","_NOT_NULL_":"1"},{"_CN_":"账号状态","_KEY_":"STATUS","_NOT_NULL_":"1"},{"_CN_":"更新用户","_KEY_":"UPDATE_USER"},{"_CN_":"创建时间","_KEY_":"CREATE_TIME"},{"_CN_":"更新时间","_KEY_":"UPDATE_TIME"}]';
+	var allFiledsStr = '[{"_CN_":"ID","_KEY_":"ID"},{"_CN_":"用户名","_KEY_":"NAME","_NOT_NULL_":"1"},{"_CN_":"用户编号","_KEY_":"CODE","_NOT_NULL_":"1"},{"_CN_":"别名","_KEY_":"ALIAS"},{"_CN_":"密码","_KEY_":"PASSWORD","_NOT_NULL_":"1"},{"_CN_":"账号状态","_KEY_":"STATUS","_NOT_NULL_":"1"},{"_CN_":"更新用户","_KEY_":"UPDATE_USER"},{"_CN_":"创建时间","_KEY_":"CREATE_TIME"},{"_CN_":"更新时间","_KEY_":"UPDATE_TIME"}]';
 	var allFileds = eval('('+allFiledsStr+')');
 	//弹出保存框
 	function showSave(obj){
@@ -85,7 +85,7 @@ $(function() {
     function expand(obj){
     	if(obj.ID){
 			$.ajax({
-				url: '/admin/user/expandUser.do',
+				url: '/yuyan/user/expandUser.do',
 				type: 'POST',
 				dataType: 'json',
 				timeout: 5000,
@@ -118,7 +118,7 @@ $(function() {
 			return;
 		}
 		$.ajax({
-				url: '/admin/user/batchDeleteUser.do',
+				url: '/yuyan/user/batchDeleteUser.do',
 				type: 'POST',
 				dataType: 'json',
 				timeout: 5000,
@@ -166,7 +166,7 @@ $(function() {
 		}
 		//alert(222);
 		$.ajax({
-				url: '/admin/user/saveUser.do',
+				url: '/yuyan/user/saveUser.do',
 				type: 'post',
 				dataType: 'json',
 				timeout: 5000,
@@ -197,7 +197,7 @@ $(function() {
 			return;
 		}
 		$.ajax({
-				url: '/admin/user/deleteUser.do',
+				url: '/yuyan/user/deleteUser.do',
 				type: 'post',
 				dataType: 'json',
 				timeout: 5000,
@@ -243,7 +243,7 @@ $(function() {
 		
 		var searchForm = $("#searchForm");
 		var tmp = searchForm.attr("action");
-		searchForm.attr("action","/admin/user/queryUser.do");
+		searchForm.attr("action","/yuyan/user/queryUser.do");
 		searchForm.submit();
 	}
 	
@@ -288,7 +288,7 @@ $(function() {
 				title: "同步"
 		}); 
 		$.ajax({
-				url: '/admin/user/syncUser.do',
+				url: '/yuyan/user/syncUser.do',
 				type: 'POST',
 				dataType: 'json',
 				success:function(result){
@@ -328,7 +328,7 @@ $(function() {
                 	$("#errorMessage").html(data.obj.message);
                 	alert(data.obj.message);
                 	if (data.obj.message == "上传成功!") {
-                	   window.location.href="/admin/user/manageUser.do";
+                	   window.location.href="/yuyan/user/manageUser.do";
                 	}
                 },
                 error:function(xhr){
@@ -340,7 +340,7 @@ $(function() {
 	function exportCsv() {
 		var searchForm = $("#searchForm");
 		var tmp = searchForm.attr("action");
-		searchForm.attr("action","/admin/user/exportUser.do");
+		searchForm.attr("action","/yuyan/user/exportUser.do");
 		searchForm.submit();
 		searchForm.attr("action",tmp);
 	}
@@ -489,12 +489,18 @@ $(function() {
 <td class='tdName'>用户名：</td>
 <td style='width:140px;'>
 <input name='searchbox.NAME' type='text' id='searchbox.NAME'  value='${searchbox["NAME"]}' />
+</td><td class='tdName'>用户编号：</td>
+<td style='width:140px;'>
+<input name='searchbox.CODE' type='text' id='searchbox.CODE'  value='${searchbox["CODE"]}' />
 </td><td class='tdName'>别名：</td>
 <td style='width:140px;'>
 <input name='searchbox.ALIAS' type='text' id='searchbox.ALIAS'  value='${searchbox["ALIAS"]}' />
-</td><td class='tdName'>账号状态：</td>
+</td></tr>
+<tr>
+<td class='tdName'>账号状态：</td>
 <td> <select style='width:140px;height:22px;' class='searchbox.'  name='searchbox.STATUS' id='searchbox.STATUS'>
-	 <option value='0' <#if searchbox["STATUS"] =='0'> selected='selected'</#if>>无效</option>
+	 <option value='' <#if searchbox["STATUS"] ==''> selected='selected'</#if>>请选择</option>
+<option value='0' <#if searchbox["STATUS"] =='0'> selected='selected'</#if>>无效</option>
 <option value='1' <#if searchbox["STATUS"] =='1'> selected='selected'</#if>>有效</option>
 </select>
 </td>
@@ -505,7 +511,7 @@ $(function() {
 				
 			</div>
 			<div class="searchCenter">
-				<input type="hidden" name="exportFields" value="NAME,ALIAS,STATUS"/>
+				<input type="hidden" name="exportFields" value="NAME,CODE,ALIAS,STATUS"/>
 				<button id='addBtn' type="button"><span><span>新增</span></span></button>
 				
 				<button id='batchDelBtn' type="button"><span><span>批量删除</span></span></button>
@@ -521,6 +527,7 @@ $(function() {
 				<tr style="position:relative;top:expression(this.offsetParent.scrollTop);">
 					<th style="width:60px;"><input name="checkall" id="checkall" type="checkbox" onclick="unselectAll()"/>&nbsp;全选</th>
 					<th>用户名</th>
+<th>用户编号</th>
 <th>别名</th>
 <th>账号状态</th>
 <th>创建时间</th>
@@ -536,8 +543,9 @@ $(function() {
 						${page.length*(page.currentPage-1)+obj_index+1}
 					</td>
 					<td>${obj.NAME}</td>
+<td>${obj.CODE}</td>
 <td>${obj.ALIAS}</td>
-<td><#if obj.STATUS='0'>无效<#elseif obj.STATUS='1'>有效</#if></td>
+<td><#if obj.STATUS=''>请选择<#elseif obj.STATUS='0'>无效<#elseif obj.STATUS='1'>有效</#if></td>
 <td>${obj.CREATE_TIME}</td>
 <td>${obj.UPDATE_TIME}</td>
 <td>${obj.UPDATE_USER}</td>
@@ -555,7 +563,7 @@ $(function() {
 			
 			<div class="searchCenter pagenation" style="text-align:right">
 				<script type="text/javascript">
-					window.__page=new SnPage(document.getElementById("searchForm"),'/admin/user/queryUser.do','${page.totalPage?c}','${page.currentPage?c}');
+					window.__page=new SnPage(document.getElementById("searchForm"),'/yuyan/user/queryUser.do','${page.totalPage?c}','${page.currentPage?c}');
 				</script>
 				每页&nbsp;<input type="text"  name="length" style="width:40px;" value="${page.length?c}"/>&nbsp;条记录&nbsp;|
 				总共<font color="red">${page.totalPage?c}</font>页，<font color="red">${page.total?c}</font>条记录&nbsp;|&nbsp;第<font color="red">${page.currentPage?c}</font>页
@@ -580,6 +588,10 @@ $(function() {
 <td> <input type='text' class='savebox'  name='saveboxNAME' id='saveboxNAME' ></td>
 </tr>
 <tr style='height:35px;'>
+<td width='140px' align='right'>用户编号：</td>
+<td> <input type='text' class='savebox'  name='saveboxCODE' id='saveboxCODE' ></td>
+</tr>
+<tr style='height:35px;'>
 <td width='140px' align='right'>别名：</td>
 <td> <input type='text' class='savebox'  name='saveboxALIAS' id='saveboxALIAS' ></td>
 </tr>
@@ -590,7 +602,8 @@ $(function() {
 <tr style='height:35px;'>
 <td width='140px' align='right'>账号状态：</td>
 <td> <select style='width:100%;height:22px;' class='savebox'  name='saveboxSTATUS' id='saveboxSTATUS'>
-	 <option value='0'>无效</option>
+	 <option value=''>请选择</option>
+<option value='0'>无效</option>
 <option value='1'>有效</option>
 </select>
 </td>
@@ -613,10 +626,10 @@ $(function() {
 </div>
 <#--批量上传-->
 <div class="showBox" id="batchupload" style="display:none;" title="用户批量上传">
-	<form action="/admin/user/uploadUser.do" method="POST" id="sguploadForm" name="sguploadForm" enctype="multipart/form-data" onsubmit="return false;">
+	<form action="/yuyan/user/uploadUser.do" method="POST" id="sguploadForm" name="sguploadForm" enctype="multipart/form-data" onsubmit="return false;">
 		<div style="text-align: center;margin: 10px 0;">
 			<span>路径：</span>
-			<input type="hidden" name="importFields" value="NAME,ALIAS,PASSWORD,STATUS"/>
+			<input type="hidden" name="importFields" value="NAME,CODE,ALIAS,PASSWORD,STATUS"/>
 			<input type="file" name="scan" id="scan"  style="height:26px;width:220px"></input>
 			<button name="send" id="sendFileBtn" type="button" ><span><span >上传</span></span></button>
 		</div>
@@ -628,7 +641,7 @@ $(function() {
 				<h3>记录字段顺序</h3>
 			</div>
 			<table width="100%" class="up_table" border="1">
-				<th>用户名</th><th>别名</th><th>账号状态</th>
+				<th>用户名</th><th>用户编号</th><th>别名</th><th>账号状态</th>
 			</table>
 			<div class="rTitle" align="left">
 				<h3>上传注意事项</h3>

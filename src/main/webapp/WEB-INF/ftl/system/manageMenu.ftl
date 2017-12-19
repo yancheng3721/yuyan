@@ -85,7 +85,7 @@ $(function() {
     function expand(obj){
     	if(obj.ID){
 			$.ajax({
-				url: '/admin/menu/expandMenu.do',
+				url: '/yuyan/menu/expandMenu.do',
 				type: 'POST',
 				dataType: 'json',
 				timeout: 5000,
@@ -118,7 +118,7 @@ $(function() {
 			return;
 		}
 		$.ajax({
-				url: '/admin/menu/batchDeleteMenu.do',
+				url: '/yuyan/menu/batchDeleteMenu.do',
 				type: 'POST',
 				dataType: 'json',
 				timeout: 5000,
@@ -166,7 +166,7 @@ $(function() {
 		}
 		//alert(222);
 		$.ajax({
-				url: '/admin/menu/saveMenu.do',
+				url: '/yuyan/menu/saveMenu.do',
 				type: 'post',
 				dataType: 'json',
 				timeout: 5000,
@@ -197,7 +197,7 @@ $(function() {
 			return;
 		}
 		$.ajax({
-				url: '/admin/menu/deleteMenu.do',
+				url: '/yuyan/menu/deleteMenu.do',
 				type: 'post',
 				dataType: 'json',
 				timeout: 5000,
@@ -243,7 +243,7 @@ $(function() {
 		
 		var searchForm = $("#searchForm");
 		var tmp = searchForm.attr("action");
-		searchForm.attr("action","/admin/menu/queryMenu.do");
+		searchForm.attr("action","/yuyan/menu/queryMenu.do");
 		searchForm.submit();
 	}
 	
@@ -288,7 +288,7 @@ $(function() {
 				title: "同步"
 		}); 
 		$.ajax({
-				url: '/admin/menu/syncMenu.do',
+				url: '/yuyan/menu/syncMenu.do',
 				type: 'POST',
 				dataType: 'json',
 				success:function(result){
@@ -328,7 +328,7 @@ $(function() {
                 	$("#errorMessage").html(data.obj.message);
                 	alert(data.obj.message);
                 	if (data.obj.message == "上传成功!") {
-                	   window.location.href="/admin/menu/manageMenu.do";
+                	   window.location.href="/yuyan/menu/manageMenu.do";
                 	}
                 },
                 error:function(xhr){
@@ -340,7 +340,7 @@ $(function() {
 	function exportCsv() {
 		var searchForm = $("#searchForm");
 		var tmp = searchForm.attr("action");
-		searchForm.attr("action","/admin/menu/exportMenu.do");
+		searchForm.attr("action","/yuyan/menu/exportMenu.do");
 		searchForm.submit();
 		searchForm.attr("action",tmp);
 	}
@@ -555,7 +555,7 @@ $(function() {
 			
 			<div class="searchCenter pagenation" style="text-align:right">
 				<script type="text/javascript">
-					window.__page=new SnPage(document.getElementById("searchForm"),'/admin/menu/queryMenu.do','${page.totalPage?c}','${page.currentPage?c}');
+					window.__page=new SnPage(document.getElementById("searchForm"),'/yuyan/menu/queryMenu.do','${page.totalPage?c}','${page.currentPage?c}');
 				</script>
 				每页&nbsp;<input type="text"  name="length" style="width:40px;" value="${page.length?c}"/>&nbsp;条记录&nbsp;|
 				总共<font color="red">${page.totalPage?c}</font>页，<font color="red">${page.total?c}</font>条记录&nbsp;|&nbsp;第<font color="red">${page.currentPage?c}</font>页
@@ -613,7 +613,7 @@ $(function() {
 </div>
 <#--批量上传-->
 <div class="showBox" id="batchupload" style="display:none;" title="菜单批量上传">
-	<form action="/admin/menu/uploadMenu.do" method="POST" id="sguploadForm" name="sguploadForm" enctype="multipart/form-data" onsubmit="return false;">
+	<form action="/yuyan/menu/uploadMenu.do" method="POST" id="sguploadForm" name="sguploadForm" enctype="multipart/form-data" onsubmit="return false;">
 		<div style="text-align: center;margin: 10px 0;">
 			<span>路径：</span>
 			<input type="hidden" name="importFields" value="NAME,CODE,PARENT_ID,ACTION,ICON"/>

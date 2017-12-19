@@ -10,16 +10,16 @@ import org.apache.commons.lang.StringUtils;
 import com.yuyan.emall.admin.base.AbstractedBaseDAO;
 
 @Repository
-public class UserDAO extends AbstractedBaseDAO{
+public class DefdetailDAO extends AbstractedBaseDAO{
     @Autowired
     private JdbcTemplate jdbcTemplate;
     
     public String getTBName(){
-    	return "T_USER";	
+    	return "t_definition_detail";	
     }
     
     public String getQuerySql(){
-    	return "SELECT ID,NAME,CODE,ALIAS,STATUS,CREATE_TIME,UPDATE_TIME,UPDATE_USER FROM T_USER ORDER BY NAME,CREATE_TIME";	
+    	return "select A.ID,A.DOC_ID,A.DEF_KEY,A.DEF_VALUE,A.STATE,A.REMARK,A.CREATE_TIME,A.UPDATE_TIME,A.UPDATE_USER,B.DOC_CODE,B.DOC_NAME from t_definition_detail A LEFT JOIN t_definition_doc B ON A.DOC_ID=B.ID";
     }
 	
 	public JdbcTemplate getJdbcTemplate(){
@@ -27,7 +27,7 @@ public class UserDAO extends AbstractedBaseDAO{
 	}
     
     public String[] getUniqKeys(){
-    	return "NAME,CODE".split(",");
+    	return "DOC_ID,DEF_KEY,DEF_VALUE,STATE".split(",");
     }
 	
 	public List<Map<String, Object>> queryByKeyword(String keyword, String id) {
