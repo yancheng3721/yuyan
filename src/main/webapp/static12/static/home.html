@@ -26,23 +26,34 @@
 		})();
 		</script>
 <style>
-	
-	.home .main .carousel-caption {
-					margin:100px auto;
-					color:#190b2b;
-					text-shadow:none;
-	}
-	.home .main .carousel-caption h3{
-			font-size:50px;
-		}
-	.home .main .carousel-caption p{
-			margin-top:20px;
-			font-size:30px;
-		}
+
 		
+		
+				
 </style>
 </head>
 <body>
+	
+	<div id="floatPanel"> 
+    <div class="ctrolPanel" style="right:0px;"> 
+        <a class="arrow" href="#"><span>顶部</span></a>
+        <a class="contact" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2099590864&amp;site=qq&amp;menu=yes" target="blank"><span>客服</span></a> 
+        <a class="qrcode" href="#"><span>二维码</span></a> 
+        <a class="arrow" href="#"><span>底部</span></a> 
+    </div> 
+     
+    <div class="popPanel" style="right:0px;"> 
+        <div class="popPanel-inner"> 
+            <div class="qrcodePanel"><img src="./images/kefu/jikebee_admin.jpg" /><p>扫描二维码加微信</p></div> 
+            <div class="arrowPanel"> 
+                <div class="arrow01"></div> 
+                <div class="arrow02"></div> 
+            </div> 
+        </div> 
+    </div> 
+	</div>
+
+	
 		<div class="container visible-xs" style="height:50px">&nbsp;</div>
 	<nav class="navbar navbar-default clearfix navbar-fixed-top visible-xs" role="navigation" style="margin-bottom:0px;">
 					<div class="navbar-header">
@@ -52,7 +63,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" style="color:white" href="#">玉言无线高密度WiFi租赁</a>
+						<img style="margin-left:15px;float:left" src="./images/jikebee_1_1_white_2.png"></img><a class="navbar-brand" style="color:white;float:left" href="#">玉言移动WiFi基站</a>
 					</div>
 					
 					
@@ -332,5 +343,28 @@
    <script src="./js/jquery-2.1.1.min.js"></script>
    <script src="./js/bootstrap.min.js"></script>
 	<script src="./js/jquery.liMarquee.js"></script>
-   
+   <script>
+   	$(function(){ 
+    $("#floatPanel a.arrow").eq(0).click(function(){ 
+        $("html,body").animate({scrollTop :0}, 300); 
+        return false; 
+    }); 
+    $("#floatPanel a.arrow").eq(1).click(function(){ 
+        $("html,body").animate({scrollTop : $(document).height()}, 300); 
+        return false; 
+    }); 
+ 
+    var panel = $(".popPanel");     
+    var w = panel.outerWidth(); 
+     
+    $(".qrcode").hover(function(){ 
+        panel.css("width","0px").show(); 
+        panel.animate({"width" : w + "px"},300); 
+    },function(){ 
+        panel.animate({"width" : "0px"},300); 
+    }); 
+     
+}); 
+   	
+   </script>
 </html>

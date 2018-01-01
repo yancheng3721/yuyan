@@ -28,6 +28,7 @@
         <processorPath useClasspath="true" />
         <module name="admin" />
         <module name="admin-archetype" />
+        <module name="portal" />
       </profile>
     </annotationProcessing>
   </component>
